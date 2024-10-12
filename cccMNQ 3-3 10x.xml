@@ -2314,7 +2314,7 @@
       <MaxLosses>30</MaxLosses>
       <MaxDailyPnLAllowed>2600</MaxDailyPnLAllowed>
       <MinDailyPnLAllowed>-5000</MinDailyPnLAllowed>
-      <MaxDailyPnLAllowedTicks>500</MaxDailyPnLAllowedTicks>
+      <MaxDailyPnLAllowedTicks>1500</MaxDailyPnLAllowedTicks>
       <MinDailyPnLAllowedTicks>-285</MinDailyPnLAllowedTicks>
       <ShowStats>true</ShowStats>
       <ShowSettings>true</ShowSettings>
