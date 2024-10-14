@@ -2245,7 +2245,7 @@
       </BarsPeriodSerializable>
       <BarsToLoad>0</BarsToLoad>
       <DisplayInDataBox>true</DisplayInDataBox>
-      <From>2024-07-15T00:00:00</From>
+      <From>2024-06-15T00:00:00</From>
       <Panel>-1</Panel>
       <ScaleJustification>Right</ScaleJustification>
       <ShowTransparentPlotsInDataBox>false</ShowTransparentPlotsInDataBox>
@@ -2481,10 +2481,10 @@
       <Time2BEBufferTicks>0</Time2BEBufferTicks>
       <Time3BETriggerTicks>0</Time3BETriggerTicks>
       <Time3BEBufferTicks>0</Time3BEBufferTicks>
-      <Time4BETriggerTicks>30</Time4BETriggerTicks>
-      <Time4BEBufferTicks>4</Time4BEBufferTicks>
-      <Time5BETriggerTicks>0</Time5BETriggerTicks>
-      <Time5BEBufferTicks>0</Time5BEBufferTicks>
+      <Time4BETriggerTicks>20</Time4BETriggerTicks>
+      <Time4BEBufferTicks>8</Time4BEBufferTicks>
+      <Time5BETriggerTicks>30</Time5BETriggerTicks>
+      <Time5BEBufferTicks>8</Time5BEBufferTicks>
       <Time6BETriggerTicks>30</Time6BETriggerTicks>
       <Time6BEBufferTicks>4</Time6BEBufferTicks>
       <Time7BETriggerTicks>30</Time7BETriggerTicks>
@@ -2509,16 +2509,16 @@
       <Time16BEBufferTicks>4</Time16BEBufferTicks>
       <Time17BETriggerTicks>30</Time17BETriggerTicks>
       <Time17BEBufferTicks>4</Time17BEBufferTicks>
-      <Time18BETriggerTicks>30</Time18BETriggerTicks>
+      <Time18BETriggerTicks>20</Time18BETriggerTicks>
       <Time18BEBufferTicks>4</Time18BEBufferTicks>
-      <Time19BETriggerTicks>30</Time19BETriggerTicks>
-      <Time19BEBufferTicks>4</Time19BEBufferTicks>
+      <Time19BETriggerTicks>20</Time19BETriggerTicks>
+      <Time19BEBufferTicks>8</Time19BEBufferTicks>
       <Time20BETriggerTicks>30</Time20BETriggerTicks>
-      <Time20BEBufferTicks>4</Time20BEBufferTicks>
+      <Time20BEBufferTicks>8</Time20BEBufferTicks>
       <Time21BETriggerTicks>30</Time21BETriggerTicks>
-      <Time21BEBufferTicks>4</Time21BEBufferTicks>
+      <Time21BEBufferTicks>8</Time21BEBufferTicks>
       <Time22BETriggerTicks>30</Time22BETriggerTicks>
-      <Time22BEBufferTicks>4</Time22BEBufferTicks>
+      <Time22BEBufferTicks>8</Time22BEBufferTicks>
       <Time23BETriggerTicks>0</Time23BETriggerTicks>
       <Time23BEBufferTicks>0</Time23BEBufferTicks>
       <Time24BETriggerTicks>0</Time24BETriggerTicks>
