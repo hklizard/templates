@@ -2245,11 +2245,11 @@
       </BarsPeriodSerializable>
       <BarsToLoad>0</BarsToLoad>
       <DisplayInDataBox>true</DisplayInDataBox>
-      <From>2024-06-15T00:00:00</From>
+      <From>2023-09-10T00:00:00</From>
       <Panel>-1</Panel>
       <ScaleJustification>Right</ScaleJustification>
       <ShowTransparentPlotsInDataBox>false</ShowTransparentPlotsInDataBox>
-      <To>2024-10-13T00:00:00</To>
+      <To>2024-10-14T00:00:00</To>
       <Calculate>OnEachTick</Calculate>
       <Displacement>0</Displacement>
       <IsAutoScale>true</IsAutoScale>
@@ -2309,8 +2309,8 @@
       <ShowATR>false</ShowATR>
       <MaxAllowedATR>15.386</MaxAllowedATR>
       <MinAllowedATR>0</MinAllowedATR>
-      <MaxDailyCombinedWins>11</MaxDailyCombinedWins>
-      <MaxDailyFirstWins>10</MaxDailyFirstWins>
+      <MaxDailyCombinedWins>10</MaxDailyCombinedWins>
+      <MaxDailyFirstWins>9</MaxDailyFirstWins>
       <MaxLosses>30</MaxLosses>
       <MaxDailyPnLAllowed>24000</MaxDailyPnLAllowed>
       <MinDailyPnLAllowed>-5000</MinDailyPnLAllowed>
@@ -2375,7 +2375,7 @@
       <TakeTrade25>false</TakeTrade25>
       <StartTime25Min>20</StartTime25Min>
       <StartTime25Hour>16</StartTime25Hour>
-      <Time1TPTicks>200</Time1TPTicks>
+      <Time1TPTicks>1000</Time1TPTicks>
       <Time1SLTicks>40</Time1SLTicks>
       <Time1Trade1Size>1</Time1Trade1Size>
       <Time1Trade2Size>1</Time1Trade2Size>
@@ -2395,7 +2395,7 @@
       <Time5SLTicks>40</Time5SLTicks>
       <Time5Trade1Size>1</Time5Trade1Size>
       <Time5Trade2Size>1</Time5Trade2Size>
-      <Time6TPTicks>200</Time6TPTicks>
+      <Time6TPTicks>1000</Time6TPTicks>
       <Time6SLTicks>40</Time6SLTicks>
       <Time6Trade1Size>1</Time6Trade1Size>
       <Time6Trade2Size>1</Time6Trade2Size>
@@ -2439,7 +2439,7 @@
       <Time16SLTicks>40</Time16SLTicks>
       <Time16Trade1Size>1</Time16Trade1Size>
       <Time16Trade2Size>0</Time16Trade2Size>
-      <Time17TPTicks>200</Time17TPTicks>
+      <Time17TPTicks>1000</Time17TPTicks>
       <Time17SLTicks>40</Time17SLTicks>
       <Time17Trade1Size>1</Time17Trade1Size>
       <Time17Trade2Size>0</Time17Trade2Size>
@@ -2451,7 +2451,7 @@
       <Time19SLTicks>40</Time19SLTicks>
       <Time19Trade1Size>1</Time19Trade1Size>
       <Time19Trade2Size>1</Time19Trade2Size>
-      <Time20TPTicks>200</Time20TPTicks>
+      <Time20TPTicks>1000</Time20TPTicks>
       <Time20SLTicks>40</Time20SLTicks>
       <Time20Trade1Size>1</Time20Trade1Size>
       <Time20Trade2Size>0</Time20Trade2Size>
@@ -2459,7 +2459,7 @@
       <Time21SLTicks>40</Time21SLTicks>
       <Time21Trade1Size>1</Time21Trade1Size>
       <Time21Trade2Size>1</Time21Trade2Size>
-      <Time22TPTicks>200</Time22TPTicks>
+      <Time22TPTicks>1000</Time22TPTicks>
       <Time22SLTicks>40</Time22SLTicks>
       <Time22Trade1Size>2</Time22Trade1Size>
       <Time22Trade2Size>0</Time22Trade2Size>
@@ -2536,7 +2536,7 @@
       <Time5TrailTriggerTicks>40</Time5TrailTriggerTicks>
       <Time5TrailBufferTicks>4</Time5TrailBufferTicks>
       <Time6TrailTriggerTicks>40</Time6TrailTriggerTicks>
-      <Time6TrailBufferTicks>4</Time6TrailBufferTicks>
+      <Time6TrailBufferTicks>38</Time6TrailBufferTicks>
       <Time7TrailTriggerTicks>40</Time7TrailTriggerTicks>
       <Time7TrailBufferTicks>4</Time7TrailBufferTicks>
       <Time8TrailTriggerTicks>0</Time8TrailTriggerTicks>
@@ -2564,8 +2564,8 @@
       <Time19TrailTriggerTicks>40</Time19TrailTriggerTicks>
       <Time19TrailBufferTicks>38</Time19TrailBufferTicks>
       <Time20TrailTriggerTicks>40</Time20TrailTriggerTicks>
-      <Time20TrailBufferTicks>4</Time20TrailBufferTicks>
-      <Time21TrailTriggerTicks>40</Time21TrailTriggerTicks>
+      <Time20TrailBufferTicks>38</Time20TrailBufferTicks>
+      <Time21TrailTriggerTicks>20</Time21TrailTriggerTicks>
       <Time21TrailBufferTicks>4</Time21TrailBufferTicks>
       <Time22TrailTriggerTicks>40</Time22TrailTriggerTicks>
       <Time22TrailBufferTicks>38</Time22TrailBufferTicks>
