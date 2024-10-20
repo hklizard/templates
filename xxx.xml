@@ -2245,11 +2245,11 @@
       </BarsPeriodSerializable>
       <BarsToLoad>0</BarsToLoad>
       <DisplayInDataBox>true</DisplayInDataBox>
-      <From>2023-09-10T00:00:00</From>
+      <From>2024-04-22T00:00:00</From>
       <Panel>-1</Panel>
       <ScaleJustification>Right</ScaleJustification>
       <ShowTransparentPlotsInDataBox>false</ShowTransparentPlotsInDataBox>
-      <To>2024-10-14T00:00:00</To>
+      <To>2024-10-19T00:00:00</To>
       <Calculate>OnEachTick</Calculate>
       <Displacement>0</Displacement>
       <IsAutoScale>true</IsAutoScale>
@@ -2394,11 +2394,11 @@
       <Time5TPTicks>200</Time5TPTicks>
       <Time5SLTicks>40</Time5SLTicks>
       <Time5Trade1Size>1</Time5Trade1Size>
-      <Time5Trade2Size>1</Time5Trade2Size>
+      <Time5Trade2Size>0</Time5Trade2Size>
       <Time6TPTicks>1000</Time6TPTicks>
       <Time6SLTicks>40</Time6SLTicks>
       <Time6Trade1Size>1</Time6Trade1Size>
-      <Time6Trade2Size>1</Time6Trade2Size>
+      <Time6Trade2Size>0</Time6Trade2Size>
       <Time7TPTicks>200</Time7TPTicks>
       <Time7SLTicks>40</Time7SLTicks>
       <Time7Trade1Size>1</Time7Trade1Size>
@@ -2442,7 +2442,7 @@
       <Time17TPTicks>1000</Time17TPTicks>
       <Time17SLTicks>40</Time17SLTicks>
       <Time17Trade1Size>1</Time17Trade1Size>
-      <Time17Trade2Size>0</Time17Trade2Size>
+      <Time17Trade2Size>1</Time17Trade2Size>
       <Time18TPTicks>200</Time18TPTicks>
       <Time18SLTicks>40</Time18SLTicks>
       <Time18Trade1Size>1</Time18Trade1Size>
