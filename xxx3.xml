@@ -2245,7 +2245,7 @@
       </BarsPeriodSerializable>
       <BarsToLoad>0</BarsToLoad>
       <DisplayInDataBox>true</DisplayInDataBox>
-      <From>2024-09-21T00:00:00</From>
+      <From>2024-09-06T00:00:00</From>
       <Panel>-1</Panel>
       <ScaleJustification>Right</ScaleJustification>
       <ShowTransparentPlotsInDataBox>false</ShowTransparentPlotsInDataBox>
@@ -2257,7 +2257,7 @@
       <IsOverlay>true</IsOverlay>
       <Lines />
       <MaximumBarsLookBack>TwoHundredFiftySix</MaximumBarsLookBack>
-      <Name>xxx2</Name>
+      <Name>xxx3</Name>
       <Plots />
       <SelectedValueSeries>0</SelectedValueSeries>
       <BarsPeriodParameter>
@@ -2435,7 +2435,7 @@
       <Time15SLTicks>40</Time15SLTicks>
       <Time15Trade1Size>1</Time15Trade1Size>
       <Time15Trade2Size>1</Time15Trade2Size>
-      <Time16TPTicks>200</Time16TPTicks>
+      <Time16TPTicks>1000</Time16TPTicks>
       <Time16SLTicks>40</Time16SLTicks>
       <Time16Trade1Size>1</Time16Trade1Size>
       <Time16Trade2Size>0</Time16Trade2Size>
@@ -2447,7 +2447,7 @@
       <Time18SLTicks>40</Time18SLTicks>
       <Time18Trade1Size>1</Time18Trade1Size>
       <Time18Trade2Size>0</Time18Trade2Size>
-      <Time19TPTicks>200</Time19TPTicks>
+      <Time19TPTicks>1000</Time19TPTicks>
       <Time19SLTicks>40</Time19SLTicks>
       <Time19Trade1Size>1</Time19Trade1Size>
       <Time19Trade2Size>1</Time19Trade2Size>
@@ -2525,8 +2525,8 @@
       <Time24BEBufferTicks>0</Time24BEBufferTicks>
       <Time25BETriggerTicks>0</Time25BETriggerTicks>
       <Time25BEBufferTicks>0</Time25BEBufferTicks>
-      <Time1TrailTriggerTicks>40</Time1TrailTriggerTicks>
-      <Time1TrailBufferTicks>38</Time1TrailBufferTicks>
+      <Time1TrailTriggerTicks>80</Time1TrailTriggerTicks>
+      <Time1TrailBufferTicks>40</Time1TrailBufferTicks>
       <Time2TrailTriggerTicks>0</Time2TrailTriggerTicks>
       <Time2TrailBufferTicks>0</Time2TrailBufferTicks>
       <Time3TrailTriggerTicks>0</Time3TrailTriggerTicks>
@@ -2551,22 +2551,22 @@
       <Time12TrailBufferTicks>0</Time12TrailBufferTicks>
       <Time13TrailTriggerTicks>0</Time13TrailTriggerTicks>
       <Time13TrailBufferTicks>0</Time13TrailBufferTicks>
-      <Time14TrailTriggerTicks>40</Time14TrailTriggerTicks>
-      <Time14TrailBufferTicks>4</Time14TrailBufferTicks>
-      <Time15TrailTriggerTicks>40</Time15TrailTriggerTicks>
-      <Time15TrailBufferTicks>4</Time15TrailBufferTicks>
-      <Time16TrailTriggerTicks>40</Time16TrailTriggerTicks>
-      <Time16TrailBufferTicks>4</Time16TrailBufferTicks>
+      <Time14TrailTriggerTicks>80</Time14TrailTriggerTicks>
+      <Time14TrailBufferTicks>40</Time14TrailBufferTicks>
+      <Time15TrailTriggerTicks>60</Time15TrailTriggerTicks>
+      <Time15TrailBufferTicks>20</Time15TrailBufferTicks>
+      <Time16TrailTriggerTicks>60</Time16TrailTriggerTicks>
+      <Time16TrailBufferTicks>20</Time16TrailBufferTicks>
       <Time17TrailTriggerTicks>40</Time17TrailTriggerTicks>
       <Time17TrailBufferTicks>38</Time17TrailBufferTicks>
       <Time18TrailTriggerTicks>40</Time18TrailTriggerTicks>
       <Time18TrailBufferTicks>4</Time18TrailBufferTicks>
-      <Time19TrailTriggerTicks>40</Time19TrailTriggerTicks>
-      <Time19TrailBufferTicks>38</Time19TrailBufferTicks>
+      <Time19TrailTriggerTicks>60</Time19TrailTriggerTicks>
+      <Time19TrailBufferTicks>20</Time19TrailBufferTicks>
       <Time20TrailTriggerTicks>40</Time20TrailTriggerTicks>
       <Time20TrailBufferTicks>38</Time20TrailBufferTicks>
-      <Time21TrailTriggerTicks>40</Time21TrailTriggerTicks>
-      <Time21TrailBufferTicks>4</Time21TrailBufferTicks>
+      <Time21TrailTriggerTicks>60</Time21TrailTriggerTicks>
+      <Time21TrailBufferTicks>20</Time21TrailBufferTicks>
       <Time22TrailTriggerTicks>40</Time22TrailTriggerTicks>
       <Time22TrailBufferTicks>38</Time22TrailBufferTicks>
       <Time23TrailTriggerTicks>0</Time23TrailTriggerTicks>
