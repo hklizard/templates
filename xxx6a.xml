@@ -109,11 +109,11 @@
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:int">500</Max>
-        <Min xsi:type="xsd:int">500</Min>
+        <Max xsi:type="xsd:int">700</Max>
+        <Min xsi:type="xsd:int">700</Min>
         <Name>MaxDailyPnLAllowedTicks</Name>
         <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>500</ValueSerializable>
+        <ValueSerializable>700</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
@@ -136,22 +136,22 @@
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:boolean">false</Max>
-        <Min xsi:type="xsd:boolean">false</Min>
+        <Max xsi:type="xsd:boolean">true</Max>
+        <Min xsi:type="xsd:boolean">true</Min>
         <Name>ShowSettings</Name>
         <ParameterTypeSerializable>System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>False</ValueSerializable>
+        <ValueSerializable>True</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable>
-          <string>Center</string>
+          <string>BottomLeft</string>
         </EnumValuesSerializable>
         <Increment>1</Increment>
         <Max xsi:type="xsd:int">0</Max>
         <Min xsi:type="xsd:int">0</Min>
         <Name>StatsPosition</Name>
         <ParameterTypeSerializable>NinjaTrader.NinjaScript.DrawingTools.TextPosition, NinjaTrader.Custom, Version=8.1.4.0, Culture=neutral, PublicKeyToken=null</ParameterTypeSerializable>
-        <ValueSerializable>Center</ValueSerializable>
+        <ValueSerializable>BottomLeft</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable>
@@ -1787,11 +1787,11 @@
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:int">40</Max>
-        <Min xsi:type="xsd:int">40</Min>
+        <Max xsi:type="xsd:int">60</Max>
+        <Min xsi:type="xsd:int">60</Min>
         <Name>Time1TrailBufferTicks</Name>
         <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>40</ValueSerializable>
+        <ValueSerializable>60</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
@@ -2021,11 +2021,11 @@
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:int">40</Max>
-        <Min xsi:type="xsd:int">40</Min>
+        <Max xsi:type="xsd:int">60</Max>
+        <Min xsi:type="xsd:int">60</Min>
         <Name>Time14TrailBufferTicks</Name>
         <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>40</ValueSerializable>
+        <ValueSerializable>60</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
@@ -2057,11 +2057,11 @@
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:int">20</Max>
-        <Min xsi:type="xsd:int">20</Min>
+        <Max xsi:type="xsd:int">40</Max>
+        <Min xsi:type="xsd:int">40</Min>
         <Name>Time16TrailBufferTicks</Name>
         <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>20</ValueSerializable>
+        <ValueSerializable>40</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
@@ -2147,11 +2147,11 @@
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:int">10</Max>
-        <Min xsi:type="xsd:int">10</Min>
+        <Max xsi:type="xsd:int">40</Max>
+        <Min xsi:type="xsd:int">40</Min>
         <Name>Time21TrailBufferTicks</Name>
         <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>10</ValueSerializable>
+        <ValueSerializable>40</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
@@ -2245,7 +2245,7 @@
       </BarsPeriodSerializable>
       <BarsToLoad>0</BarsToLoad>
       <DisplayInDataBox>true</DisplayInDataBox>
-      <From>2024-06-01T00:00:00</From>
+      <From>2024-09-14T00:00:00</From>
       <Panel>-1</Panel>
       <ScaleJustification>Right</ScaleJustification>
       <ShowTransparentPlotsInDataBox>false</ShowTransparentPlotsInDataBox>
@@ -2278,7 +2278,7 @@
       <EntryHandling>UniqueEntries</EntryHandling>
       <ExitOnSessionCloseSeconds>300</ExitOnSessionCloseSeconds>
       <IncludeCommission>false</IncludeCommission>
-      <InstrumentOrInstrumentList />
+      <InstrumentOrInstrumentList>NQ DEC24</InstrumentOrInstrumentList>
       <IsAggregated>false</IsAggregated>
       <IsExitOnSessionCloseStrategy>true</IsExitOnSessionCloseStrategy>
       <IsFillLimitOnTouch>false</IsFillLimitOnTouch>
@@ -2307,7 +2307,7 @@
       <ZOrder>-2147483648</ZOrder>
       <StartTime25>0001-01-01T00:00:00</StartTime25>
       <ShowATR>false</ShowATR>
-      <MaxAllowedATR>150</MaxAllowedATR>
+      <MaxAllowedATR>15.386</MaxAllowedATR>
       <MinAllowedATR>0</MinAllowedATR>
       <MaxDailyCombinedWins>10</MaxDailyCombinedWins>
       <MaxDailyFirstWins>10</MaxDailyFirstWins>
