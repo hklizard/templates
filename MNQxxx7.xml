@@ -2245,11 +2245,11 @@
       </BarsPeriodSerializable>
       <BarsToLoad>0</BarsToLoad>
       <DisplayInDataBox>true</DisplayInDataBox>
-      <From>2024-09-26T00:00:00</From>
+      <From>2023-09-30T00:00:00</From>
       <Panel>-1</Panel>
       <ScaleJustification>Right</ScaleJustification>
       <ShowTransparentPlotsInDataBox>false</ShowTransparentPlotsInDataBox>
-      <To>2024-10-26T00:00:00</To>
+      <To>2024-11-03T00:00:00</To>
       <Calculate>OnEachTick</Calculate>
       <Displacement>0</Displacement>
       <IsAutoScale>true</IsAutoScale>
@@ -2310,7 +2310,7 @@
       <MaxAllowedATR>15.386</MaxAllowedATR>
       <MinAllowedATR>0</MinAllowedATR>
       <MaxDailyCombinedWins>8</MaxDailyCombinedWins>
-      <MaxDailyFirstWins>7</MaxDailyFirstWins>
+      <MaxDailyFirstWins>6</MaxDailyFirstWins>
       <MaxLosses>30</MaxLosses>
       <MaxDailyPnLAllowed>24000</MaxDailyPnLAllowed>
       <MinDailyPnLAllowed>-5000</MinDailyPnLAllowed>
