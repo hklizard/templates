@@ -150,7 +150,7 @@
         <Max xsi:type="xsd:int">0</Max>
         <Min xsi:type="xsd:int">0</Min>
         <Name>StatsPosition</Name>
-        <ParameterTypeSerializable>NinjaTrader.NinjaScript.DrawingTools.TextPosition, 7b807ef334654dbd978f2be55c456278, Version=8.1.4.0, Culture=neutral, PublicKeyToken=null</ParameterTypeSerializable>
+        <ParameterTypeSerializable>NinjaTrader.NinjaScript.DrawingTools.TextPosition, NinjaTrader.Custom, Version=8.1.4.0, Culture=neutral, PublicKeyToken=null</ParameterTypeSerializable>
         <ValueSerializable>BottomLeft</ValueSerializable>
       </Parameter>
       <Parameter>
@@ -161,7 +161,7 @@
         <Max xsi:type="xsd:int">0</Max>
         <Min xsi:type="xsd:int">0</Min>
         <Name>SettingsPosition</Name>
-        <ParameterTypeSerializable>NinjaTrader.NinjaScript.DrawingTools.TextPosition, 7b807ef334654dbd978f2be55c456278, Version=8.1.4.0, Culture=neutral, PublicKeyToken=null</ParameterTypeSerializable>
+        <ParameterTypeSerializable>NinjaTrader.NinjaScript.DrawingTools.TextPosition, NinjaTrader.Custom, Version=8.1.4.0, Culture=neutral, PublicKeyToken=null</ParameterTypeSerializable>
         <ValueSerializable>BottomRight</ValueSerializable>
       </Parameter>
       <Parameter>
@@ -2245,11 +2245,11 @@
       </BarsPeriodSerializable>
       <BarsToLoad>0</BarsToLoad>
       <DisplayInDataBox>true</DisplayInDataBox>
-      <From>2024-11-01T00:00:00</From>
+      <From>2024-10-20T00:00:00</From>
       <Panel>-1</Panel>
       <ScaleJustification>Right</ScaleJustification>
       <ShowTransparentPlotsInDataBox>false</ShowTransparentPlotsInDataBox>
-      <To>2024-11-08T00:00:00</To>
+      <To>2024-11-10T00:00:00</To>
       <Calculate>OnEachTick</Calculate>
       <Displacement>0</Displacement>
       <IsAutoScale>true</IsAutoScale>
@@ -2257,7 +2257,7 @@
       <IsOverlay>true</IsOverlay>
       <Lines />
       <MaximumBarsLookBack>TwoHundredFiftySix</MaximumBarsLookBack>
-      <Name>xxx6a</Name>
+      <Name>xxx6a3</Name>
       <Plots />
       <SelectedValueSeries>0</SelectedValueSeries>
       <BarsPeriodParameter>
@@ -2309,13 +2309,13 @@
       <ShowATR>false</ShowATR>
       <MaxAllowedATR>15.386</MaxAllowedATR>
       <MinAllowedATR>0</MinAllowedATR>
-      <MaxDailyCombinedWins>8</MaxDailyCombinedWins>
+      <MaxDailyCombinedWins>7</MaxDailyCombinedWins>
       <MaxDailyFirstWins>6</MaxDailyFirstWins>
       <MaxLosses>30</MaxLosses>
       <MaxDailyPnLAllowed>24000</MaxDailyPnLAllowed>
       <MinDailyPnLAllowed>-5000</MinDailyPnLAllowed>
       <MaxDailyPnLAllowedTicks>700</MaxDailyPnLAllowedTicks>
-      <MinDailyPnLAllowedTicks>-95</MinDailyPnLAllowedTicks>
+      <MinDailyPnLAllowedTicks>-80</MinDailyPnLAllowedTicks>
       <ShowStats>true</ShowStats>
       <ShowSettings>true</ShowSettings>
       <StatsPosition>BottomLeft</StatsPosition>
@@ -2509,7 +2509,7 @@
       <Time16BEBufferTicks>4</Time16BEBufferTicks>
       <Time17BETriggerTicks>30</Time17BETriggerTicks>
       <Time17BEBufferTicks>4</Time17BEBufferTicks>
-      <Time18BETriggerTicks>20</Time18BETriggerTicks>
+      <Time18BETriggerTicks>30</Time18BETriggerTicks>
       <Time18BEBufferTicks>4</Time18BEBufferTicks>
       <Time19BETriggerTicks>20</Time19BETriggerTicks>
       <Time19BEBufferTicks>8</Time19BEBufferTicks>
