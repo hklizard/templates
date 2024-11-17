@@ -2257,7 +2257,7 @@
       <IsOverlay>true</IsOverlay>
       <Lines />
       <MaximumBarsLookBack>TwoHundredFiftySix</MaximumBarsLookBack>
-      <Name>13-8-9</Name>
+      <Name>13b-8-9</Name>
       <Plots />
       <SelectedValueSeries>0</SelectedValueSeries>
       <BarsPeriodParameter>
@@ -2314,7 +2314,7 @@
       <MaxLosses>30</MaxLosses>
       <MaxDailyPnLAllowed>24000</MaxDailyPnLAllowed>
       <MinDailyPnLAllowed>-5000</MinDailyPnLAllowed>
-      <MaxDailyPnLAllowedTicks>1000</MaxDailyPnLAllowedTicks>
+      <MaxDailyPnLAllowedTicks>800</MaxDailyPnLAllowedTicks>
       <MinDailyPnLAllowedTicks>-95</MinDailyPnLAllowedTicks>
       <ShowStats>true</ShowStats>
       <ShowSettings>true</ShowSettings>
@@ -2332,15 +2332,15 @@
       <StartTime3>2024-05-28T19:19:00</StartTime3>
       <TakeTrade4>true</TakeTrade4>
       <StartTime4>2024-05-28T20:19:00</StartTime4>
-      <TakeTrade5>false</TakeTrade5>
-      <StartTime5>2024-05-28T20:42:00</StartTime5>
-      <TakeTrade6>true</TakeTrade6>
+      <TakeTrade5>true</TakeTrade5>
+      <StartTime5>2024-05-28T21:01:00</StartTime5>
+      <TakeTrade6>false</TakeTrade6>
       <StartTime6>2024-05-28T22:13:00</StartTime6>
       <TakeTrade7>false</TakeTrade7>
       <StartTime7>2024-05-28T22:44:00</StartTime7>
-      <TakeTrade8>false</TakeTrade8>
-      <StartTime8>2024-05-28T23:57:00</StartTime8>
-      <TakeTrade9>true</TakeTrade9>
+      <TakeTrade8>true</TakeTrade8>
+      <StartTime8>2024-05-28T23:59:00</StartTime8>
+      <TakeTrade9>false</TakeTrade9>
       <StartTime9>2024-05-28T01:15:00</StartTime9>
       <TakeTrade10>false</TakeTrade10>
       <StartTime10>2024-05-28T01:40:00</StartTime10>
@@ -2348,17 +2348,17 @@
       <StartTime11>2024-05-28T02:17:00</StartTime11>
       <TakeTrade12>false</TakeTrade12>
       <StartTime12>2024-05-28T03:21:00</StartTime12>
-      <TakeTrade13>false</TakeTrade13>
-      <StartTime13>2024-05-28T04:03:00</StartTime13>
+      <TakeTrade13>true</TakeTrade13>
+      <StartTime13>2024-05-28T04:16:00</StartTime13>
       <TakeTrade14>false</TakeTrade14>
       <StartTime14>2024-05-28T06:53:00</StartTime14>
       <TakeTrade15>true</TakeTrade15>
       <StartTime15>2024-05-28T07:00:00</StartTime15>
       <TakeTrade16>true</TakeTrade16>
-      <StartTime16>2024-05-28T08:02:00</StartTime16>
+      <StartTime16>2024-05-28T08:01:00</StartTime16>
       <TakeTrade17>true</TakeTrade17>
-      <StartTime17>2024-05-28T09:34:00</StartTime17>
-      <TakeTrade18>true</TakeTrade18>
+      <StartTime17>2024-05-28T09:31:00</StartTime17>
+      <TakeTrade18>false</TakeTrade18>
       <StartTime18>2024-05-28T10:33:00</StartTime18>
       <TakeTrade19>true</TakeTrade19>
       <StartTime19>2024-05-28T12:27:00</StartTime19>
@@ -2375,10 +2375,10 @@
       <TakeTrade25>false</TakeTrade25>
       <StartTime25Min>20</StartTime25Min>
       <StartTime25Hour>16</StartTime25Hour>
-      <Time1TPTicks>200</Time1TPTicks>
+      <Time1TPTicks>1000</Time1TPTicks>
       <Time1SLTicks>40</Time1SLTicks>
       <Time1Trade1Size>1</Time1Trade1Size>
-      <Time1Trade2Size>1</Time1Trade2Size>
+      <Time1Trade2Size>2</Time1Trade2Size>
       <Time2TPTicks>28</Time2TPTicks>
       <Time2SLTicks>28</Time2SLTicks>
       <Time2Trade1Size>1</Time2Trade1Size>
@@ -2391,22 +2391,22 @@
       <Time4SLTicks>40</Time4SLTicks>
       <Time4Trade1Size>1</Time4Trade1Size>
       <Time4Trade2Size>1</Time4Trade2Size>
-      <Time5TPTicks>36</Time5TPTicks>
-      <Time5SLTicks>36</Time5SLTicks>
+      <Time5TPTicks>200</Time5TPTicks>
+      <Time5SLTicks>40</Time5SLTicks>
       <Time5Trade1Size>1</Time5Trade1Size>
-      <Time5Trade2Size>1</Time5Trade2Size>
-      <Time6TPTicks>200</Time6TPTicks>
+      <Time5Trade2Size>0</Time5Trade2Size>
+      <Time6TPTicks>1000</Time6TPTicks>
       <Time6SLTicks>40</Time6SLTicks>
       <Time6Trade1Size>1</Time6Trade1Size>
-      <Time6Trade2Size>1</Time6Trade2Size>
+      <Time6Trade2Size>0</Time6Trade2Size>
       <Time7TPTicks>40</Time7TPTicks>
       <Time7SLTicks>40</Time7SLTicks>
       <Time7Trade1Size>1</Time7Trade1Size>
       <Time7Trade2Size>1</Time7Trade2Size>
-      <Time8TPTicks>40</Time8TPTicks>
+      <Time8TPTicks>1000</Time8TPTicks>
       <Time8SLTicks>40</Time8SLTicks>
       <Time8Trade1Size>1</Time8Trade1Size>
-      <Time8Trade2Size>1</Time8Trade2Size>
+      <Time8Trade2Size>2</Time8Trade2Size>
       <Time9TPTicks>200</Time9TPTicks>
       <Time9SLTicks>36</Time9SLTicks>
       <Time9Trade1Size>1</Time9Trade1Size>
@@ -2423,10 +2423,10 @@
       <Time12SLTicks>40</Time12SLTicks>
       <Time12Trade1Size>1</Time12Trade1Size>
       <Time12Trade2Size>1</Time12Trade2Size>
-      <Time13TPTicks>40</Time13TPTicks>
+      <Time13TPTicks>200</Time13TPTicks>
       <Time13SLTicks>40</Time13SLTicks>
       <Time13Trade1Size>1</Time13Trade1Size>
-      <Time13Trade2Size>1</Time13Trade2Size>
+      <Time13Trade2Size>2</Time13Trade2Size>
       <Time14TPTicks>40</Time14TPTicks>
       <Time14SLTicks>40</Time14SLTicks>
       <Time14Trade1Size>1</Time14Trade1Size>
@@ -2435,11 +2435,11 @@
       <Time15SLTicks>40</Time15SLTicks>
       <Time15Trade1Size>1</Time15Trade1Size>
       <Time15Trade2Size>0</Time15Trade2Size>
-      <Time16TPTicks>200</Time16TPTicks>
+      <Time16TPTicks>1000</Time16TPTicks>
       <Time16SLTicks>40</Time16SLTicks>
-      <Time16Trade1Size>2</Time16Trade1Size>
+      <Time16Trade1Size>1</Time16Trade1Size>
       <Time16Trade2Size>0</Time16Trade2Size>
-      <Time17TPTicks>200</Time17TPTicks>
+      <Time17TPTicks>1000</Time17TPTicks>
       <Time17SLTicks>40</Time17SLTicks>
       <Time17Trade1Size>1</Time17Trade1Size>
       <Time17Trade2Size>1</Time17Trade2Size>
@@ -2451,7 +2451,7 @@
       <Time19SLTicks>40</Time19SLTicks>
       <Time19Trade1Size>1</Time19Trade1Size>
       <Time19Trade2Size>1</Time19Trade2Size>
-      <Time20TPTicks>200</Time20TPTicks>
+      <Time20TPTicks>1000</Time20TPTicks>
       <Time20SLTicks>40</Time20SLTicks>
       <Time20Trade1Size>1</Time20Trade1Size>
       <Time20Trade2Size>2</Time20Trade2Size>
@@ -2483,14 +2483,14 @@
       <Time3BEBufferTicks>0</Time3BEBufferTicks>
       <Time4BETriggerTicks>30</Time4BETriggerTicks>
       <Time4BEBufferTicks>4</Time4BEBufferTicks>
-      <Time5BETriggerTicks>0</Time5BETriggerTicks>
-      <Time5BEBufferTicks>0</Time5BEBufferTicks>
+      <Time5BETriggerTicks>30</Time5BETriggerTicks>
+      <Time5BEBufferTicks>8</Time5BEBufferTicks>
       <Time6BETriggerTicks>30</Time6BETriggerTicks>
       <Time6BEBufferTicks>4</Time6BEBufferTicks>
       <Time7BETriggerTicks>0</Time7BETriggerTicks>
       <Time7BEBufferTicks>0</Time7BEBufferTicks>
-      <Time8BETriggerTicks>0</Time8BETriggerTicks>
-      <Time8BEBufferTicks>0</Time8BEBufferTicks>
+      <Time8BETriggerTicks>30</Time8BETriggerTicks>
+      <Time8BEBufferTicks>8</Time8BEBufferTicks>
       <Time9BETriggerTicks>27</Time9BETriggerTicks>
       <Time9BEBufferTicks>4</Time9BEBufferTicks>
       <Time10BETriggerTicks>0</Time10BETriggerTicks>
@@ -2499,8 +2499,8 @@
       <Time11BEBufferTicks>4</Time11BEBufferTicks>
       <Time12BETriggerTicks>0</Time12BETriggerTicks>
       <Time12BEBufferTicks>0</Time12BEBufferTicks>
-      <Time13BETriggerTicks>0</Time13BETriggerTicks>
-      <Time13BEBufferTicks>0</Time13BEBufferTicks>
+      <Time13BETriggerTicks>30</Time13BETriggerTicks>
+      <Time13BEBufferTicks>8</Time13BEBufferTicks>
       <Time14BETriggerTicks>0</Time14BETriggerTicks>
       <Time14BEBufferTicks>0</Time14BEBufferTicks>
       <Time15BETriggerTicks>30</Time15BETriggerTicks>
@@ -2525,22 +2525,22 @@
       <Time24BEBufferTicks>0</Time24BEBufferTicks>
       <Time25BETriggerTicks>0</Time25BETriggerTicks>
       <Time25BEBufferTicks>0</Time25BEBufferTicks>
-      <Time1TrailTriggerTicks>40</Time1TrailTriggerTicks>
-      <Time1TrailBufferTicks>38</Time1TrailBufferTicks>
+      <Time1TrailTriggerTicks>80</Time1TrailTriggerTicks>
+      <Time1TrailBufferTicks>60</Time1TrailBufferTicks>
       <Time2TrailTriggerTicks>0</Time2TrailTriggerTicks>
       <Time2TrailBufferTicks>0</Time2TrailBufferTicks>
       <Time3TrailTriggerTicks>0</Time3TrailTriggerTicks>
       <Time3TrailBufferTicks>0</Time3TrailBufferTicks>
       <Time4TrailTriggerTicks>40</Time4TrailTriggerTicks>
       <Time4TrailBufferTicks>4</Time4TrailBufferTicks>
-      <Time5TrailTriggerTicks>0</Time5TrailTriggerTicks>
-      <Time5TrailBufferTicks>0</Time5TrailBufferTicks>
+      <Time5TrailTriggerTicks>40</Time5TrailTriggerTicks>
+      <Time5TrailBufferTicks>4</Time5TrailBufferTicks>
       <Time6TrailTriggerTicks>40</Time6TrailTriggerTicks>
-      <Time6TrailBufferTicks>38</Time6TrailBufferTicks>
+      <Time6TrailBufferTicks>10</Time6TrailBufferTicks>
       <Time7TrailTriggerTicks>0</Time7TrailTriggerTicks>
       <Time7TrailBufferTicks>0</Time7TrailBufferTicks>
-      <Time8TrailTriggerTicks>0</Time8TrailTriggerTicks>
-      <Time8TrailBufferTicks>0</Time8TrailBufferTicks>
+      <Time8TrailTriggerTicks>80</Time8TrailTriggerTicks>
+      <Time8TrailBufferTicks>60</Time8TrailBufferTicks>
       <Time9TrailTriggerTicks>36</Time9TrailTriggerTicks>
       <Time9TrailBufferTicks>34</Time9TrailBufferTicks>
       <Time10TrailTriggerTicks>0</Time10TrailTriggerTicks>
@@ -2549,16 +2549,16 @@
       <Time11TrailBufferTicks>3</Time11TrailBufferTicks>
       <Time12TrailTriggerTicks>0</Time12TrailTriggerTicks>
       <Time12TrailBufferTicks>0</Time12TrailBufferTicks>
-      <Time13TrailTriggerTicks>0</Time13TrailTriggerTicks>
-      <Time13TrailBufferTicks>0</Time13TrailBufferTicks>
+      <Time13TrailTriggerTicks>60</Time13TrailTriggerTicks>
+      <Time13TrailBufferTicks>10</Time13TrailBufferTicks>
       <Time14TrailTriggerTicks>0</Time14TrailTriggerTicks>
       <Time14TrailBufferTicks>0</Time14TrailBufferTicks>
       <Time15TrailTriggerTicks>40</Time15TrailTriggerTicks>
       <Time15TrailBufferTicks>20</Time15TrailBufferTicks>
-      <Time16TrailTriggerTicks>40</Time16TrailTriggerTicks>
-      <Time16TrailBufferTicks>4</Time16TrailBufferTicks>
+      <Time16TrailTriggerTicks>60</Time16TrailTriggerTicks>
+      <Time16TrailBufferTicks>40</Time16TrailBufferTicks>
       <Time17TrailTriggerTicks>40</Time17TrailTriggerTicks>
-      <Time17TrailBufferTicks>20</Time17TrailBufferTicks>
+      <Time17TrailBufferTicks>38</Time17TrailBufferTicks>
       <Time18TrailTriggerTicks>40</Time18TrailTriggerTicks>
       <Time18TrailBufferTicks>20</Time18TrailBufferTicks>
       <Time19TrailTriggerTicks>40</Time19TrailTriggerTicks>

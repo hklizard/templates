@@ -2257,7 +2257,7 @@
       <IsOverlay>true</IsOverlay>
       <Lines />
       <MaximumBarsLookBack>TwoHundredFiftySix</MaximumBarsLookBack>
-      <Name>13-8-9</Name>
+      <Name>13-7-8</Name>
       <Plots />
       <SelectedValueSeries>0</SelectedValueSeries>
       <BarsPeriodParameter>
@@ -2278,7 +2278,7 @@
       <EntryHandling>UniqueEntries</EntryHandling>
       <ExitOnSessionCloseSeconds>300</ExitOnSessionCloseSeconds>
       <IncludeCommission>false</IncludeCommission>
-      <InstrumentOrInstrumentList />
+      <InstrumentOrInstrumentList>NQ DEC24</InstrumentOrInstrumentList>
       <IsAggregated>false</IsAggregated>
       <IsExitOnSessionCloseStrategy>true</IsExitOnSessionCloseStrategy>
       <IsFillLimitOnTouch>false</IsFillLimitOnTouch>
@@ -2309,8 +2309,8 @@
       <ShowATR>false</ShowATR>
       <MaxAllowedATR>15.386</MaxAllowedATR>
       <MinAllowedATR>0</MinAllowedATR>
-      <MaxDailyCombinedWins>9</MaxDailyCombinedWins>
-      <MaxDailyFirstWins>8</MaxDailyFirstWins>
+      <MaxDailyCombinedWins>8</MaxDailyCombinedWins>
+      <MaxDailyFirstWins>7</MaxDailyFirstWins>
       <MaxLosses>30</MaxLosses>
       <MaxDailyPnLAllowed>24000</MaxDailyPnLAllowed>
       <MinDailyPnLAllowed>-5000</MinDailyPnLAllowed>
