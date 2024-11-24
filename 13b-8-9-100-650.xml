@@ -2245,11 +2245,11 @@
       </BarsPeriodSerializable>
       <BarsToLoad>0</BarsToLoad>
       <DisplayInDataBox>true</DisplayInDataBox>
-      <From>2023-10-14T00:00:00</From>
+      <From>2023-10-19T00:00:00</From>
       <Panel>-1</Panel>
       <ScaleJustification>Right</ScaleJustification>
       <ShowTransparentPlotsInDataBox>false</ShowTransparentPlotsInDataBox>
-      <To>2024-11-17T00:00:00</To>
+      <To>2024-11-22T00:00:00</To>
       <Calculate>OnEachTick</Calculate>
       <Displacement>0</Displacement>
       <IsAutoScale>true</IsAutoScale>
