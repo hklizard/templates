@@ -127,11 +127,11 @@
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:int">-120</Max>
-        <Min xsi:type="xsd:int">-120</Min>
-        <Name>MinUnrealizedPnLAllowedTicks</Name>
+        <Max xsi:type="xsd:int">-1000</Max>
+        <Min xsi:type="xsd:int">-1000</Min>
+        <Name>DailyMinUnrealizedPnLAllowedTicks</Name>
         <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>-120</ValueSerializable>
+        <ValueSerializable>-1000</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
@@ -186,7 +186,7 @@
         <Max xsi:type="xsd:int">0</Max>
         <Min xsi:type="xsd:int">0</Min>
         <Name>StatsPosition</Name>
-        <ParameterTypeSerializable>NinjaTrader.NinjaScript.DrawingTools.TextPosition, NinjaTrader.Custom, Version=8.1.4.0, Culture=neutral, PublicKeyToken=null</ParameterTypeSerializable>
+        <ParameterTypeSerializable>NinjaTrader.NinjaScript.DrawingTools.TextPosition, ff8dda9b13c6467db8bec783ad53a3bc, Version=8.1.4.0, Culture=neutral, PublicKeyToken=null</ParameterTypeSerializable>
         <ValueSerializable>BottomLeft</ValueSerializable>
       </Parameter>
       <Parameter>
@@ -197,7 +197,7 @@
         <Max xsi:type="xsd:int">0</Max>
         <Min xsi:type="xsd:int">0</Min>
         <Name>SettingsPosition</Name>
-        <ParameterTypeSerializable>NinjaTrader.NinjaScript.DrawingTools.TextPosition, NinjaTrader.Custom, Version=8.1.4.0, Culture=neutral, PublicKeyToken=null</ParameterTypeSerializable>
+        <ParameterTypeSerializable>NinjaTrader.NinjaScript.DrawingTools.TextPosition, ff8dda9b13c6467db8bec783ad53a3bc, Version=8.1.4.0, Culture=neutral, PublicKeyToken=null</ParameterTypeSerializable>
         <ValueSerializable>BottomRight</ValueSerializable>
       </Parameter>
       <Parameter>
@@ -2281,11 +2281,11 @@
       </BarsPeriodSerializable>
       <BarsToLoad>0</BarsToLoad>
       <DisplayInDataBox>true</DisplayInDataBox>
-      <From>2023-11-16T17:00:00</From>
+      <From>2023-08-15T05:21:28</From>
       <Panel>-1</Panel>
       <ScaleJustification>Right</ScaleJustification>
       <ShowTransparentPlotsInDataBox>false</ShowTransparentPlotsInDataBox>
-      <To>2024-12-20T17:00:00</To>
+      <To>2024-12-27T05:21:28</To>
       <Calculate>OnEachTick</Calculate>
       <Displacement>0</Displacement>
       <IsAutoScale>true</IsAutoScale>
@@ -2294,7 +2294,32 @@
       <Lines />
       <MaximumBarsLookBack>TwoHundredFiftySix</MaximumBarsLookBack>
       <Name>12c-8-9-80-120u-600r-475u-12.41-120trail-60amount</Name>
-      <Plots />
+      <Plots>
+        <Plot>
+          <IsOpacityVisible>false</IsOpacityVisible>
+          <BrushSerialize>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FFFF0000&lt;/SolidColorBrush&gt;</BrushSerialize>
+          <DashStyleHelper>Dash</DashStyleHelper>
+          <Opacity>100</Opacity>
+          <Width>1</Width>
+          <AutoWidth>false</AutoWidth>
+          <Max>1.7976931348623157E+308</Max>
+          <Min>-1.7976931348623157E+308</Min>
+          <Name>DailyStopLoss</Name>
+          <PlotStyle>Line</PlotStyle>
+        </Plot>
+        <Plot>
+          <IsOpacityVisible>false</IsOpacityVisible>
+          <BrushSerialize>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FF800080&lt;/SolidColorBrush&gt;</BrushSerialize>
+          <DashStyleHelper>Dash</DashStyleHelper>
+          <Opacity>100</Opacity>
+          <Width>1</Width>
+          <AutoWidth>false</AutoWidth>
+          <Max>1.7976931348623157E+308</Max>
+          <Min>-1.7976931348623157E+308</Min>
+          <Name>TrailingSLPlot</Name>
+          <PlotStyle>Line</PlotStyle>
+        </Plot>
+      </Plots>
       <SelectedValueSeries>0</SelectedValueSeries>
       <BarsPeriodParameter>
         <Increment>1</Increment>
@@ -2352,7 +2377,7 @@
       <MinDailyPnLAllowed>-5000</MinDailyPnLAllowed>
       <MaxDailyPnLAllowedTicks>600</MaxDailyPnLAllowedTicks>
       <MaxUnrealizedPnLAllowedTicks>475</MaxUnrealizedPnLAllowedTicks>
-      <MinUnrealizedPnLAllowedTicks>-120</MinUnrealizedPnLAllowedTicks>
+      <DailyMinUnrealizedPnLAllowedTicks>-120</DailyMinUnrealizedPnLAllowedTicks>
       <UnrealizedPnLAllowedTicksTrailTrigger>120</UnrealizedPnLAllowedTicksTrailTrigger>
       <UnrealizedPnLAllowedTicksTrailAmount>60</UnrealizedPnLAllowedTicksTrailAmount>
       <MinDailyPnLAllowedTicks>-80</MinDailyPnLAllowedTicks>
