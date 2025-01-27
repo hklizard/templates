@@ -199,7 +199,7 @@
         <Max xsi:type="xsd:int">0</Max>
         <Min xsi:type="xsd:int">0</Min>
         <Name>StatsPosition</Name>
-        <ParameterTypeSerializable>NinjaTrader.NinjaScript.DrawingTools.TextPosition, NinjaTrader.Custom, Version=8.1.5.0, Culture=neutral, PublicKeyToken=null</ParameterTypeSerializable>
+        <ParameterTypeSerializable>NinjaTrader.NinjaScript.DrawingTools.TextPosition, fb98ecb0a65a45529f0dcca0ca424361, Version=8.1.5.0, Culture=neutral, PublicKeyToken=null</ParameterTypeSerializable>
         <ValueSerializable>BottomLeft</ValueSerializable>
       </Parameter>
       <Parameter>
@@ -210,7 +210,7 @@
         <Max xsi:type="xsd:int">0</Max>
         <Min xsi:type="xsd:int">0</Min>
         <Name>SettingsPosition</Name>
-        <ParameterTypeSerializable>NinjaTrader.NinjaScript.DrawingTools.TextPosition, NinjaTrader.Custom, Version=8.1.5.0, Culture=neutral, PublicKeyToken=null</ParameterTypeSerializable>
+        <ParameterTypeSerializable>NinjaTrader.NinjaScript.DrawingTools.TextPosition, fb98ecb0a65a45529f0dcca0ca424361, Version=8.1.5.0, Culture=neutral, PublicKeyToken=null</ParameterTypeSerializable>
         <ValueSerializable>BottomRight</ValueSerializable>
       </Parameter>
       <Parameter>
@@ -2292,6 +2292,33 @@
         <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
         <ValueSerializable>200</ValueSerializable>
       </Parameter>
+      <Parameter>
+        <EnumValuesSerializable />
+        <Increment>1</Increment>
+        <Max xsi:type="xsd:boolean">true</Max>
+        <Min xsi:type="xsd:boolean">true</Min>
+        <Name>UseEmaNotSma</Name>
+        <ParameterTypeSerializable>System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
+        <ValueSerializable>True</ValueSerializable>
+      </Parameter>
+      <Parameter>
+        <EnumValuesSerializable />
+        <Increment>1</Increment>
+        <Max xsi:type="xsd:boolean">false</Max>
+        <Min xsi:type="xsd:boolean">false</Min>
+        <Name>FollowMAs</Name>
+        <ParameterTypeSerializable>System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
+        <ValueSerializable>False</ValueSerializable>
+      </Parameter>
+      <Parameter>
+        <EnumValuesSerializable />
+        <Increment>1</Increment>
+        <Max xsi:type="xsd:boolean">false</Max>
+        <Min xsi:type="xsd:boolean">false</Min>
+        <Name>ShowMAs</Name>
+        <ParameterTypeSerializable>System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
+        <ValueSerializable>False</ValueSerializable>
+      </Parameter>
     </ArrayOfParameter>
   </OptimizationParameters>
   <Strategy>
@@ -2406,7 +2433,7 @@
       <EntryHandling>UniqueEntries</EntryHandling>
       <ExitOnSessionCloseSeconds>300</ExitOnSessionCloseSeconds>
       <IncludeCommission>false</IncludeCommission>
-      <InstrumentOrInstrumentList />
+      <InstrumentOrInstrumentList>NQ MAR25</InstrumentOrInstrumentList>
       <IsAggregated>false</IsAggregated>
       <IsExitOnSessionCloseStrategy>true</IsExitOnSessionCloseStrategy>
       <IsFillLimitOnTouch>false</IsFillLimitOnTouch>
@@ -2713,6 +2740,7 @@
       <Slow>800</Slow>
       <UseEmaNotSma>true</UseEmaNotSma>
       <FollowMAs>false</FollowMAs>
+      <ShowMAs>false</ShowMAs>
     </FBNewUnmanaged>
   </Strategy>
 </StrategyTemplate>
