@@ -216,6 +216,15 @@
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
+        <Max xsi:type="xsd:int">40</Max>
+        <Min xsi:type="xsd:int">40</Min>
+        <Name>TableBackgroundOpacity</Name>
+        <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
+        <ValueSerializable>40</ValueSerializable>
+      </Parameter>
+      <Parameter>
+        <EnumValuesSerializable />
+        <Increment>1</Increment>
         <Max xsi:type="xsd:boolean">false</Max>
         <Min xsi:type="xsd:boolean">false</Min>
         <Name>TPMarketIfTouched</Name>
@@ -2292,6 +2301,33 @@
         <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
         <ValueSerializable>200</ValueSerializable>
       </Parameter>
+      <Parameter>
+        <EnumValuesSerializable />
+        <Increment>1</Increment>
+        <Max xsi:type="xsd:boolean">true</Max>
+        <Min xsi:type="xsd:boolean">true</Min>
+        <Name>UseEmaNotSma</Name>
+        <ParameterTypeSerializable>System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
+        <ValueSerializable>True</ValueSerializable>
+      </Parameter>
+      <Parameter>
+        <EnumValuesSerializable />
+        <Increment>1</Increment>
+        <Max xsi:type="xsd:boolean">false</Max>
+        <Min xsi:type="xsd:boolean">false</Min>
+        <Name>FollowMAs</Name>
+        <ParameterTypeSerializable>System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
+        <ValueSerializable>False</ValueSerializable>
+      </Parameter>
+      <Parameter>
+        <EnumValuesSerializable />
+        <Increment>1</Increment>
+        <Max xsi:type="xsd:boolean">false</Max>
+        <Min xsi:type="xsd:boolean">false</Min>
+        <Name>ShowMAs</Name>
+        <ParameterTypeSerializable>System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
+        <ValueSerializable>False</ValueSerializable>
+      </Parameter>
     </ArrayOfParameter>
   </OptimizationParameters>
   <Strategy>
@@ -2312,11 +2348,11 @@
       </BarsPeriodSerializable>
       <BarsToLoad>0</BarsToLoad>
       <DisplayInDataBox>true</DisplayInDataBox>
-      <From>2023-02-26T00:00:00</From>
+      <From>2023-03-06T00:00:00</From>
       <Panel>-1</Panel>
       <ScaleJustification>Right</ScaleJustification>
       <ShowTransparentPlotsInDataBox>false</ShowTransparentPlotsInDataBox>
-      <To>2025-01-26T00:00:00</To>
+      <To>2025-02-03T00:00:00</To>
       <Calculate>OnEachTick</Calculate>
       <Displacement>0</Displacement>
       <IsAutoScale>true</IsAutoScale>
@@ -2398,10 +2434,10 @@
       </BarsPeriodParameter>
       <BarsRequiredToTrade>20</BarsRequiredToTrade>
       <Category>NinjaScript</Category>
-      <ConnectionLossHandling>KeepRunning</ConnectionLossHandling>
+      <ConnectionLossHandling>Recalculate</ConnectionLossHandling>
       <DaysToLoad>5</DaysToLoad>
       <DefaultQuantity>1</DefaultQuantity>
-      <DisconnectDelaySeconds>100</DisconnectDelaySeconds>
+      <DisconnectDelaySeconds>1000</DisconnectDelaySeconds>
       <EntriesPerDirection>1</EntriesPerDirection>
       <EntryHandling>UniqueEntries</EntryHandling>
       <ExitOnSessionCloseSeconds>300</ExitOnSessionCloseSeconds>
@@ -2443,7 +2479,7 @@
       <MaxDailyPnLAllowed>6000</MaxDailyPnLAllowed>
       <MinDailyPnLAllowed>-5000</MinDailyPnLAllowed>
       <MaxDailyPnLAllowedTicks>489</MaxDailyPnLAllowedTicks>
-      <MaxUnrealizedPnLAllowedTicks>489</MaxUnrealizedPnLAllowedTicks>
+      <MaxUnrealizedPnLAllowedTicks>423</MaxUnrealizedPnLAllowedTicks>
       <NextTradeMinTicks>4</NextTradeMinTicks>
       <DailyMinUnrealizedPnLAllowedTicks>-105</DailyMinUnrealizedPnLAllowedTicks>
       <UnrealizedPnLAllowedTicksTrailTrigger>125</UnrealizedPnLAllowedTicksTrailTrigger>
@@ -2454,6 +2490,7 @@
       <ShowSettings>true</ShowSettings>
       <StatsPosition>BottomLeft</StatsPosition>
       <SettingsPosition>BottomRight</SettingsPosition>
+      <TableBackgroundOpacity>40</TableBackgroundOpacity>
       <TradeStart>1999-08-11T00:00:00</TradeStart>
       <TradeEnd>2099-01-01T00:00:00</TradeEnd>
       <TPMarketIfTouched>false</TPMarketIfTouched>
@@ -2713,6 +2750,7 @@
       <Slow>800</Slow>
       <UseEmaNotSma>true</UseEmaNotSma>
       <FollowMAs>false</FollowMAs>
+      <ShowMAs>false</ShowMAs>
     </FBNewUnmanaged>
   </Strategy>
 </StrategyTemplate>
