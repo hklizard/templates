@@ -2689,7 +2689,7 @@
       <Time21BETriggerTicks>30</Time21BETriggerTicks>
       <Time21BEBufferTicks>4</Time21BEBufferTicks>
       <Time22BETriggerTicks>30</Time22BETriggerTicks>
-      <Time22BEBufferTicks>4</Time22BEBufferTicks>
+      <Time22BEBufferTicks>6</Time22BEBufferTicks>
       <Time23BETriggerTicks>0</Time23BETriggerTicks>
       <Time23BEBufferTicks>0</Time23BEBufferTicks>
       <Time24BETriggerTicks>0</Time24BETriggerTicks>
