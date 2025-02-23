@@ -2480,7 +2480,7 @@
       <MinDailyPnLAllowed>-5000</MinDailyPnLAllowed>
       <MaxDailyPnLAllowedTicks>489</MaxDailyPnLAllowedTicks>
       <MaxUnrealizedPnLAllowedTicks>423</MaxUnrealizedPnLAllowedTicks>
-      <NextTradeMinTicks>4</NextTradeMinTicks>
+      <NextTradeMinTicks>0</NextTradeMinTicks>
       <DailyMinUnrealizedPnLAllowedTicks>-105</DailyMinUnrealizedPnLAllowedTicks>
       <UnrealizedPnLAllowedTicksTrailTrigger>125</UnrealizedPnLAllowedTicksTrailTrigger>
       <UnrealizedPnLAllowedTicksBETrigger>600</UnrealizedPnLAllowedTicksBETrigger>
