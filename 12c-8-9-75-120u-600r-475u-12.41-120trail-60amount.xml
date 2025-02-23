@@ -24,6 +24,11 @@
         <Name>IsVisible</Name>
         <Value xsi:type="xsd:boolean">true</Value>
       </ParameterWrapper>
+      <ParameterWrapper>
+        <DisplayName>Name</DisplayName>
+        <Name>Name</Name>
+        <Value xsi:type="xsd:string">Default</Value>
+      </ParameterWrapper>
     </ArrayOfParameterWrapper>
   </OptimizerParameters>
   <OptimizationFitness>NinjaTrader.NinjaScript.OptimizationFitnesses.MaxProfitFactor</OptimizationFitness>
@@ -41,11 +46,11 @@
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:double">120</Max>
-        <Min xsi:type="xsd:double">120</Min>
+        <Max xsi:type="xsd:double">15.386</Max>
+        <Min xsi:type="xsd:double">15.386</Min>
         <Name>MaxAllowedATR</Name>
         <ParameterTypeSerializable>System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>120</ValueSerializable>
+        <ValueSerializable>15.386</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
@@ -59,11 +64,11 @@
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:int">8</Max>
-        <Min xsi:type="xsd:int">8</Min>
+        <Max xsi:type="xsd:int">9</Max>
+        <Min xsi:type="xsd:int">9</Min>
         <Name>MaxDailyCombinedWins</Name>
         <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>8</ValueSerializable>
+        <ValueSerializable>9</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
@@ -86,11 +91,11 @@
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:int">6000</Max>
-        <Min xsi:type="xsd:int">6000</Min>
+        <Max xsi:type="xsd:int">24000</Max>
+        <Min xsi:type="xsd:int">24000</Min>
         <Name>MaxDailyPnLAllowed</Name>
         <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>6000</ValueSerializable>
+        <ValueSerializable>24000</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
@@ -104,74 +109,56 @@
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:int">489</Max>
-        <Min xsi:type="xsd:int">489</Min>
-        <Name>MaxDailyPnLAllowedTicks</Name>
-        <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>489</ValueSerializable>
-      </Parameter>
-      <Parameter>
-        <EnumValuesSerializable />
-        <Increment>1</Increment>
-        <Max xsi:type="xsd:int">489</Max>
-        <Min xsi:type="xsd:int">489</Min>
-        <Name>MaxUnrealizedPnLAllowedTicks</Name>
-        <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>489</ValueSerializable>
-      </Parameter>
-      <Parameter>
-        <EnumValuesSerializable />
-        <Increment>1</Increment>
-        <Max xsi:type="xsd:int">4</Max>
-        <Min xsi:type="xsd:int">4</Min>
-        <Name>NextTradeMinTicks</Name>
-        <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>4</ValueSerializable>
-      </Parameter>
-      <Parameter>
-        <EnumValuesSerializable />
-        <Increment>1</Increment>
-        <Max xsi:type="xsd:int">-105</Max>
-        <Min xsi:type="xsd:int">-105</Min>
-        <Name>DailyMinUnrealizedPnLAllowedTicks</Name>
-        <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>-105</ValueSerializable>
-      </Parameter>
-      <Parameter>
-        <EnumValuesSerializable />
-        <Increment>1</Increment>
-        <Max xsi:type="xsd:int">125</Max>
-        <Min xsi:type="xsd:int">125</Min>
-        <Name>UnrealizedPnLAllowedTicksTrailTrigger</Name>
-        <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>125</ValueSerializable>
-      </Parameter>
-      <Parameter>
-        <EnumValuesSerializable />
-        <Increment>1</Increment>
         <Max xsi:type="xsd:int">600</Max>
         <Min xsi:type="xsd:int">600</Min>
-        <Name>UnrealizedPnLAllowedTicksBETrigger</Name>
+        <Name>MaxDailyPnLAllowedTicks</Name>
         <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
         <ValueSerializable>600</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:int">45</Max>
-        <Min xsi:type="xsd:int">45</Min>
-        <Name>UnrealizedPnLAllowedTicksTrailAmount</Name>
+        <Max xsi:type="xsd:int">480</Max>
+        <Min xsi:type="xsd:int">480</Min>
+        <Name>MaxUnrealizedPnLAllowedTicks</Name>
         <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>45</ValueSerializable>
+        <ValueSerializable>480</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:int">-70</Max>
-        <Min xsi:type="xsd:int">-70</Min>
+        <Max xsi:type="xsd:int">-1000</Max>
+        <Min xsi:type="xsd:int">-1000</Min>
+        <Name>DailyMinUnrealizedPnLAllowedTicks</Name>
+        <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
+        <ValueSerializable>-1000</ValueSerializable>
+      </Parameter>
+      <Parameter>
+        <EnumValuesSerializable />
+        <Increment>1</Increment>
+        <Max xsi:type="xsd:int">60</Max>
+        <Min xsi:type="xsd:int">60</Min>
+        <Name>UnrealizedPnLAllowedTicksTrailTrigger</Name>
+        <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
+        <ValueSerializable>60</ValueSerializable>
+      </Parameter>
+      <Parameter>
+        <EnumValuesSerializable />
+        <Increment>1</Increment>
+        <Max xsi:type="xsd:int">60</Max>
+        <Min xsi:type="xsd:int">60</Min>
+        <Name>UnrealizedPnLAllowedTicksTrailAmount</Name>
+        <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
+        <ValueSerializable>60</ValueSerializable>
+      </Parameter>
+      <Parameter>
+        <EnumValuesSerializable />
+        <Increment>1</Increment>
+        <Max xsi:type="xsd:int">-100</Max>
+        <Min xsi:type="xsd:int">-100</Min>
         <Name>MinDailyPnLAllowedTicks</Name>
         <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>-70</ValueSerializable>
+        <ValueSerializable>-100</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
@@ -199,7 +186,7 @@
         <Max xsi:type="xsd:int">0</Max>
         <Min xsi:type="xsd:int">0</Min>
         <Name>StatsPosition</Name>
-        <ParameterTypeSerializable>NinjaTrader.NinjaScript.DrawingTools.TextPosition, NinjaTrader.Custom, Version=8.1.5.0, Culture=neutral, PublicKeyToken=null</ParameterTypeSerializable>
+        <ParameterTypeSerializable>NinjaTrader.NinjaScript.DrawingTools.TextPosition, NinjaTrader.Custom, Version=8.1.4.0, Culture=neutral, PublicKeyToken=null</ParameterTypeSerializable>
         <ValueSerializable>BottomLeft</ValueSerializable>
       </Parameter>
       <Parameter>
@@ -210,17 +197,8 @@
         <Max xsi:type="xsd:int">0</Max>
         <Min xsi:type="xsd:int">0</Min>
         <Name>SettingsPosition</Name>
-        <ParameterTypeSerializable>NinjaTrader.NinjaScript.DrawingTools.TextPosition, NinjaTrader.Custom, Version=8.1.5.0, Culture=neutral, PublicKeyToken=null</ParameterTypeSerializable>
+        <ParameterTypeSerializable>NinjaTrader.NinjaScript.DrawingTools.TextPosition, NinjaTrader.Custom, Version=8.1.4.0, Culture=neutral, PublicKeyToken=null</ParameterTypeSerializable>
         <ValueSerializable>BottomRight</ValueSerializable>
-      </Parameter>
-      <Parameter>
-        <EnumValuesSerializable />
-        <Increment>1</Increment>
-        <Max xsi:type="xsd:int">40</Max>
-        <Min xsi:type="xsd:int">40</Min>
-        <Name>TableBackgroundOpacity</Name>
-        <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>40</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
@@ -423,11 +401,11 @@
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:boolean">false</Max>
-        <Min xsi:type="xsd:boolean">false</Min>
+        <Max xsi:type="xsd:boolean">true</Max>
+        <Min xsi:type="xsd:boolean">true</Min>
         <Name>TakeTrade21</Name>
         <ParameterTypeSerializable>System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>False</ValueSerializable>
+        <ValueSerializable>True</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
@@ -594,11 +572,11 @@
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:int">98</Max>
-        <Min xsi:type="xsd:int">98</Min>
+        <Max xsi:type="xsd:int">100</Max>
+        <Min xsi:type="xsd:int">100</Min>
         <Name>Time4TPTicks</Name>
         <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>98</ValueSerializable>
+        <ValueSerializable>100</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
@@ -666,11 +644,11 @@
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:int">214</Max>
-        <Min xsi:type="xsd:int">214</Min>
+        <Max xsi:type="xsd:int">250</Max>
+        <Min xsi:type="xsd:int">250</Min>
         <Name>Time6TPTicks</Name>
         <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>214</ValueSerializable>
+        <ValueSerializable>250</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
@@ -693,20 +671,20 @@
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:int">0</Max>
-        <Min xsi:type="xsd:int">0</Min>
+        <Max xsi:type="xsd:int">1</Max>
+        <Min xsi:type="xsd:int">1</Min>
         <Name>Time6Trade2Size</Name>
         <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>0</ValueSerializable>
+        <ValueSerializable>1</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:int">250</Max>
-        <Min xsi:type="xsd:int">250</Min>
+        <Max xsi:type="xsd:int">40</Max>
+        <Min xsi:type="xsd:int">40</Min>
         <Name>Time7TPTicks</Name>
         <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>250</ValueSerializable>
+        <ValueSerializable>40</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
@@ -774,11 +752,11 @@
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:int">184</Max>
-        <Min xsi:type="xsd:int">184</Min>
+        <Max xsi:type="xsd:int">150</Max>
+        <Min xsi:type="xsd:int">150</Min>
         <Name>Time9TPTicks</Name>
         <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>184</ValueSerializable>
+        <ValueSerializable>150</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
@@ -846,11 +824,11 @@
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:int">51</Max>
-        <Min xsi:type="xsd:int">51</Min>
+        <Max xsi:type="xsd:int">50</Max>
+        <Min xsi:type="xsd:int">50</Min>
         <Name>Time11TPTicks</Name>
         <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>51</ValueSerializable>
+        <ValueSerializable>50</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
@@ -1026,11 +1004,11 @@
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:int">57</Max>
-        <Min xsi:type="xsd:int">57</Min>
+        <Max xsi:type="xsd:int">100</Max>
+        <Min xsi:type="xsd:int">100</Min>
         <Name>Time16TPTicks</Name>
         <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>57</ValueSerializable>
+        <ValueSerializable>100</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
@@ -1062,11 +1040,11 @@
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:int">128</Max>
-        <Min xsi:type="xsd:int">128</Min>
+        <Max xsi:type="xsd:int">140</Max>
+        <Min xsi:type="xsd:int">140</Min>
         <Name>Time17TPTicks</Name>
         <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>128</ValueSerializable>
+        <ValueSerializable>140</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
@@ -1134,11 +1112,11 @@
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:int">142</Max>
-        <Min xsi:type="xsd:int">142</Min>
+        <Max xsi:type="xsd:int">130</Max>
+        <Min xsi:type="xsd:int">130</Min>
         <Name>Time19TPTicks</Name>
         <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>142</ValueSerializable>
+        <ValueSerializable>130</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
@@ -1161,20 +1139,20 @@
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:int">2</Max>
-        <Min xsi:type="xsd:int">2</Min>
+        <Max xsi:type="xsd:int">1</Max>
+        <Min xsi:type="xsd:int">1</Min>
         <Name>Time19Trade2Size</Name>
         <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>2</ValueSerializable>
+        <ValueSerializable>1</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:int">194</Max>
-        <Min xsi:type="xsd:int">194</Min>
+        <Max xsi:type="xsd:int">250</Max>
+        <Min xsi:type="xsd:int">250</Min>
         <Name>Time20TPTicks</Name>
         <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>194</ValueSerializable>
+        <ValueSerializable>250</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
@@ -1197,11 +1175,11 @@
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:int">1</Max>
-        <Min xsi:type="xsd:int">1</Min>
+        <Max xsi:type="xsd:int">2</Max>
+        <Min xsi:type="xsd:int">2</Min>
         <Name>Time20Trade2Size</Name>
         <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>1</ValueSerializable>
+        <ValueSerializable>2</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
@@ -1233,20 +1211,20 @@
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:int">1</Max>
-        <Min xsi:type="xsd:int">1</Min>
+        <Max xsi:type="xsd:int">2</Max>
+        <Min xsi:type="xsd:int">2</Min>
         <Name>Time21Trade2Size</Name>
         <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>1</ValueSerializable>
+        <ValueSerializable>2</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:int">108</Max>
-        <Min xsi:type="xsd:int">108</Min>
+        <Max xsi:type="xsd:int">100</Max>
+        <Min xsi:type="xsd:int">100</Min>
         <Name>Time22TPTicks</Name>
         <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>108</ValueSerializable>
+        <ValueSerializable>100</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
@@ -1260,11 +1238,11 @@
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:int">2</Max>
-        <Min xsi:type="xsd:int">2</Min>
+        <Max xsi:type="xsd:int">1</Max>
+        <Min xsi:type="xsd:int">1</Min>
         <Name>Time22Trade1Size</Name>
         <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>2</ValueSerializable>
+        <ValueSerializable>1</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
@@ -1494,20 +1472,20 @@
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:int">30</Max>
-        <Min xsi:type="xsd:int">30</Min>
+        <Max xsi:type="xsd:int">0</Max>
+        <Min xsi:type="xsd:int">0</Min>
         <Name>Time7BETriggerTicks</Name>
         <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>30</ValueSerializable>
+        <ValueSerializable>0</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:int">4</Max>
-        <Min xsi:type="xsd:int">4</Min>
+        <Max xsi:type="xsd:int">0</Max>
+        <Min xsi:type="xsd:int">0</Min>
         <Name>Time7BEBufferTicks</Name>
         <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>4</ValueSerializable>
+        <ValueSerializable>0</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
@@ -1620,20 +1598,20 @@
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:int">30</Max>
-        <Min xsi:type="xsd:int">30</Min>
+        <Max xsi:type="xsd:int">0</Max>
+        <Min xsi:type="xsd:int">0</Min>
         <Name>Time14BETriggerTicks</Name>
         <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>30</ValueSerializable>
+        <ValueSerializable>0</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:int">4</Max>
-        <Min xsi:type="xsd:int">4</Min>
+        <Max xsi:type="xsd:int">0</Max>
+        <Min xsi:type="xsd:int">0</Min>
         <Name>Time14BEBufferTicks</Name>
         <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>4</ValueSerializable>
+        <ValueSerializable>0</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
@@ -1944,20 +1922,20 @@
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:int">40</Max>
-        <Min xsi:type="xsd:int">40</Min>
+        <Max xsi:type="xsd:int">0</Max>
+        <Min xsi:type="xsd:int">0</Min>
         <Name>Time7TrailTriggerTicks</Name>
         <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>40</ValueSerializable>
+        <ValueSerializable>0</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:int">38</Max>
-        <Min xsi:type="xsd:int">38</Min>
+        <Max xsi:type="xsd:int">0</Max>
+        <Min xsi:type="xsd:int">0</Min>
         <Name>Time7TrailBufferTicks</Name>
         <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>38</ValueSerializable>
+        <ValueSerializable>0</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
@@ -2016,20 +1994,20 @@
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:int">30</Max>
-        <Min xsi:type="xsd:int">30</Min>
+        <Max xsi:type="xsd:int">28</Max>
+        <Min xsi:type="xsd:int">28</Min>
         <Name>Time11TrailTriggerTicks</Name>
         <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>30</ValueSerializable>
+        <ValueSerializable>28</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:int">4</Max>
-        <Min xsi:type="xsd:int">4</Min>
+        <Max xsi:type="xsd:int">3</Max>
+        <Min xsi:type="xsd:int">3</Min>
         <Name>Time11TrailBufferTicks</Name>
         <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>4</ValueSerializable>
+        <ValueSerializable>3</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
@@ -2283,51 +2261,6 @@
         <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
         <ValueSerializable>0</ValueSerializable>
       </Parameter>
-      <Parameter>
-        <EnumValuesSerializable />
-        <Increment>1</Increment>
-        <Max xsi:type="xsd:int">50</Max>
-        <Min xsi:type="xsd:int">50</Min>
-        <Name>Fast</Name>
-        <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>50</ValueSerializable>
-      </Parameter>
-      <Parameter>
-        <EnumValuesSerializable />
-        <Increment>1</Increment>
-        <Max xsi:type="xsd:int">200</Max>
-        <Min xsi:type="xsd:int">200</Min>
-        <Name>Slow</Name>
-        <ParameterTypeSerializable>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>200</ValueSerializable>
-      </Parameter>
-      <Parameter>
-        <EnumValuesSerializable />
-        <Increment>1</Increment>
-        <Max xsi:type="xsd:boolean">true</Max>
-        <Min xsi:type="xsd:boolean">true</Min>
-        <Name>UseEmaNotSma</Name>
-        <ParameterTypeSerializable>System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>True</ValueSerializable>
-      </Parameter>
-      <Parameter>
-        <EnumValuesSerializable />
-        <Increment>1</Increment>
-        <Max xsi:type="xsd:boolean">false</Max>
-        <Min xsi:type="xsd:boolean">false</Min>
-        <Name>FollowMAs</Name>
-        <ParameterTypeSerializable>System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>False</ValueSerializable>
-      </Parameter>
-      <Parameter>
-        <EnumValuesSerializable />
-        <Increment>1</Increment>
-        <Max xsi:type="xsd:boolean">false</Max>
-        <Min xsi:type="xsd:boolean">false</Min>
-        <Name>ShowMAs</Name>
-        <ParameterTypeSerializable>System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>False</ValueSerializable>
-      </Parameter>
     </ArrayOfParameter>
   </OptimizationParameters>
   <Strategy>
@@ -2348,11 +2281,11 @@
       </BarsPeriodSerializable>
       <BarsToLoad>0</BarsToLoad>
       <DisplayInDataBox>true</DisplayInDataBox>
-      <From>2023-03-07T00:00:00</From>
+      <From>2023-05-07T00:00:00</From>
       <Panel>-1</Panel>
       <ScaleJustification>Right</ScaleJustification>
       <ShowTransparentPlotsInDataBox>false</ShowTransparentPlotsInDataBox>
-      <To>2025-02-04T00:00:00</To>
+      <To>2024-12-27T00:00:00</To>
       <Calculate>OnEachTick</Calculate>
       <Displacement>0</Displacement>
       <IsAutoScale>true</IsAutoScale>
@@ -2360,7 +2293,7 @@
       <IsOverlay>true</IsOverlay>
       <Lines />
       <MaximumBarsLookBack>TwoHundredFiftySix</MaximumBarsLookBack>
-      <Name>zzz3</Name>
+      <Name>12c-8-9-75-120u-600r-475u-12.41-120trail-60amount</Name>
       <Plots>
         <Plot>
           <IsOpacityVisible>false</IsOpacityVisible>
@@ -2386,42 +2319,6 @@
           <Name>TrailingSLPlot</Name>
           <PlotStyle>Line</PlotStyle>
         </Plot>
-        <Plot>
-          <IsOpacityVisible>false</IsOpacityVisible>
-          <BrushSerialize>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FF008000&lt;/SolidColorBrush&gt;</BrushSerialize>
-          <DashStyleHelper>Dash</DashStyleHelper>
-          <Opacity>100</Opacity>
-          <Width>1</Width>
-          <AutoWidth>false</AutoWidth>
-          <Max>1.7976931348623157E+308</Max>
-          <Min>-1.7976931348623157E+308</Min>
-          <Name>DailyTakeProfit</Name>
-          <PlotStyle>Line</PlotStyle>
-        </Plot>
-        <Plot>
-          <IsOpacityVisible>false</IsOpacityVisible>
-          <BrushSerialize>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FFFFFF00&lt;/SolidColorBrush&gt;</BrushSerialize>
-          <DashStyleHelper>Dash</DashStyleHelper>
-          <Opacity>100</Opacity>
-          <Width>1</Width>
-          <AutoWidth>false</AutoWidth>
-          <Max>1.7976931348623157E+308</Max>
-          <Min>-1.7976931348623157E+308</Min>
-          <Name>DailyStopLossTriggerPlot</Name>
-          <PlotStyle>Line</PlotStyle>
-        </Plot>
-        <Plot>
-          <IsOpacityVisible>false</IsOpacityVisible>
-          <BrushSerialize>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FF40E0D0&lt;/SolidColorBrush&gt;</BrushSerialize>
-          <DashStyleHelper>Dash</DashStyleHelper>
-          <Opacity>100</Opacity>
-          <Width>1</Width>
-          <AutoWidth>false</AutoWidth>
-          <Max>1.7976931348623157E+308</Max>
-          <Min>-1.7976931348623157E+308</Min>
-          <Name>DailyBETriggerPlot</Name>
-          <PlotStyle>Line</PlotStyle>
-        </Plot>
       </Plots>
       <SelectedValueSeries>0</SelectedValueSeries>
       <BarsPeriodParameter>
@@ -2434,10 +2331,10 @@
       </BarsPeriodParameter>
       <BarsRequiredToTrade>20</BarsRequiredToTrade>
       <Category>NinjaScript</Category>
-      <ConnectionLossHandling>Recalculate</ConnectionLossHandling>
+      <ConnectionLossHandling>KeepRunning</ConnectionLossHandling>
       <DaysToLoad>5</DaysToLoad>
       <DefaultQuantity>1</DefaultQuantity>
-      <DisconnectDelaySeconds>1000</DisconnectDelaySeconds>
+      <DisconnectDelaySeconds>100</DisconnectDelaySeconds>
       <EntriesPerDirection>1</EntriesPerDirection>
       <EntryHandling>UniqueEntries</EntryHandling>
       <ExitOnSessionCloseSeconds>300</ExitOnSessionCloseSeconds>
@@ -2473,24 +2370,21 @@
       <ShowATR>false</ShowATR>
       <MaxAllowedATR>120</MaxAllowedATR>
       <MinAllowedATR>0</MinAllowedATR>
-      <MaxDailyCombinedWins>8</MaxDailyCombinedWins>
+      <MaxDailyCombinedWins>9</MaxDailyCombinedWins>
       <MaxDailyFirstWins>8</MaxDailyFirstWins>
       <MaxLosses>30</MaxLosses>
-      <MaxDailyPnLAllowed>6000</MaxDailyPnLAllowed>
+      <MaxDailyPnLAllowed>24000</MaxDailyPnLAllowed>
       <MinDailyPnLAllowed>-5000</MinDailyPnLAllowed>
-      <MaxDailyPnLAllowedTicks>489</MaxDailyPnLAllowedTicks>
-      <MaxUnrealizedPnLAllowedTicks>423</MaxUnrealizedPnLAllowedTicks>
-      <NextTradeMinTicks>0</NextTradeMinTicks>
-      <DailyMinUnrealizedPnLAllowedTicks>-105</DailyMinUnrealizedPnLAllowedTicks>
-      <UnrealizedPnLAllowedTicksTrailTrigger>125</UnrealizedPnLAllowedTicksTrailTrigger>
-      <UnrealizedPnLAllowedTicksBETrigger>600</UnrealizedPnLAllowedTicksBETrigger>
-      <UnrealizedPnLAllowedTicksTrailAmount>45</UnrealizedPnLAllowedTicksTrailAmount>
+      <MaxDailyPnLAllowedTicks>600</MaxDailyPnLAllowedTicks>
+      <MaxUnrealizedPnLAllowedTicks>475</MaxUnrealizedPnLAllowedTicks>
+      <DailyMinUnrealizedPnLAllowedTicks>-120</DailyMinUnrealizedPnLAllowedTicks>
+      <UnrealizedPnLAllowedTicksTrailTrigger>120</UnrealizedPnLAllowedTicksTrailTrigger>
+      <UnrealizedPnLAllowedTicksTrailAmount>60</UnrealizedPnLAllowedTicksTrailAmount>
       <MinDailyPnLAllowedTicks>-70</MinDailyPnLAllowedTicks>
       <ShowStats>true</ShowStats>
       <ShowSettings>true</ShowSettings>
       <StatsPosition>BottomLeft</StatsPosition>
       <SettingsPosition>BottomRight</SettingsPosition>
-      <TableBackgroundOpacity>40</TableBackgroundOpacity>
       <TradeStart>1999-08-11T00:00:00</TradeStart>
       <TradeEnd>2099-01-01T00:00:00</TradeEnd>
       <TPMarketIfTouched>false</TPMarketIfTouched>
@@ -2535,8 +2429,8 @@
       <StartTime19>2024-05-28T12:27:00</StartTime19>
       <TakeTrade20>true</TakeTrade20>
       <StartTime20>2024-05-28T12:50:00</StartTime20>
-      <TakeTrade21>false</TakeTrade21>
-      <StartTime21>2024-05-28T13:29:00</StartTime21>
+      <TakeTrade21>true</TakeTrade21>
+      <StartTime21>2024-05-28T13:26:00</StartTime21>
       <TakeTrade22>true</TakeTrade22>
       <StartTime22>2024-05-28T15:55:00</StartTime22>
       <TakeTrade23>false</TakeTrade23>
@@ -2558,7 +2452,7 @@
       <Time3SLTicks>24</Time3SLTicks>
       <Time3Trade1Size>1</Time3Trade1Size>
       <Time3Trade2Size>1</Time3Trade2Size>
-      <Time4TPTicks>200</Time4TPTicks>
+      <Time4TPTicks>100</Time4TPTicks>
       <Time4SLTicks>40</Time4SLTicks>
       <Time4Trade1Size>1</Time4Trade1Size>
       <Time4Trade2Size>1</Time4Trade2Size>
@@ -2566,11 +2460,11 @@
       <Time5SLTicks>36</Time5SLTicks>
       <Time5Trade1Size>1</Time5Trade1Size>
       <Time5Trade2Size>1</Time5Trade2Size>
-      <Time6TPTicks>214</Time6TPTicks>
+      <Time6TPTicks>250</Time6TPTicks>
       <Time6SLTicks>40</Time6SLTicks>
       <Time6Trade1Size>1</Time6Trade1Size>
-      <Time6Trade2Size>0</Time6Trade2Size>
-      <Time7TPTicks>250</Time7TPTicks>
+      <Time6Trade2Size>1</Time6Trade2Size>
+      <Time7TPTicks>40</Time7TPTicks>
       <Time7SLTicks>40</Time7SLTicks>
       <Time7Trade1Size>1</Time7Trade1Size>
       <Time7Trade2Size>1</Time7Trade2Size>
@@ -2578,7 +2472,7 @@
       <Time8SLTicks>40</Time8SLTicks>
       <Time8Trade1Size>1</Time8Trade1Size>
       <Time8Trade2Size>1</Time8Trade2Size>
-      <Time9TPTicks>184</Time9TPTicks>
+      <Time9TPTicks>150</Time9TPTicks>
       <Time9SLTicks>36</Time9SLTicks>
       <Time9Trade1Size>1</Time9Trade1Size>
       <Time9Trade2Size>1</Time9Trade2Size>
@@ -2586,7 +2480,7 @@
       <Time10SLTicks>28</Time10SLTicks>
       <Time10Trade1Size>1</Time10Trade1Size>
       <Time10Trade2Size>1</Time10Trade2Size>
-      <Time11TPTicks>200</Time11TPTicks>
+      <Time11TPTicks>50</Time11TPTicks>
       <Time11SLTicks>28</Time11SLTicks>
       <Time11Trade1Size>2</Time11Trade1Size>
       <Time11Trade2Size>0</Time11Trade2Size>
@@ -2606,11 +2500,11 @@
       <Time15SLTicks>40</Time15SLTicks>
       <Time15Trade1Size>1</Time15Trade1Size>
       <Time15Trade2Size>0</Time15Trade2Size>
-      <Time16TPTicks>57</Time16TPTicks>
+      <Time16TPTicks>100</Time16TPTicks>
       <Time16SLTicks>40</Time16SLTicks>
       <Time16Trade1Size>2</Time16Trade1Size>
       <Time16Trade2Size>0</Time16Trade2Size>
-      <Time17TPTicks>128</Time17TPTicks>
+      <Time17TPTicks>140</Time17TPTicks>
       <Time17SLTicks>40</Time17SLTicks>
       <Time17Trade1Size>1</Time17Trade1Size>
       <Time17Trade2Size>1</Time17Trade2Size>
@@ -2618,21 +2512,21 @@
       <Time18SLTicks>40</Time18SLTicks>
       <Time18Trade1Size>1</Time18Trade1Size>
       <Time18Trade2Size>1</Time18Trade2Size>
-      <Time19TPTicks>142</Time19TPTicks>
+      <Time19TPTicks>130</Time19TPTicks>
       <Time19SLTicks>40</Time19SLTicks>
       <Time19Trade1Size>1</Time19Trade1Size>
-      <Time19Trade2Size>2</Time19Trade2Size>
-      <Time20TPTicks>194</Time20TPTicks>
+      <Time19Trade2Size>1</Time19Trade2Size>
+      <Time20TPTicks>250</Time20TPTicks>
       <Time20SLTicks>40</Time20SLTicks>
       <Time20Trade1Size>1</Time20Trade1Size>
-      <Time20Trade2Size>1</Time20Trade2Size>
+      <Time20Trade2Size>2</Time20Trade2Size>
       <Time21TPTicks>120</Time21TPTicks>
       <Time21SLTicks>40</Time21SLTicks>
       <Time21Trade1Size>1</Time21Trade1Size>
-      <Time21Trade2Size>1</Time21Trade2Size>
-      <Time22TPTicks>108</Time22TPTicks>
+      <Time21Trade2Size>2</Time21Trade2Size>
+      <Time22TPTicks>100</Time22TPTicks>
       <Time22SLTicks>40</Time22SLTicks>
-      <Time22Trade1Size>2</Time22Trade1Size>
+      <Time22Trade1Size>1</Time22Trade1Size>
       <Time22Trade2Size>0</Time22Trade2Size>
       <Time23TPTicks>20</Time23TPTicks>
       <Time23SLTicks>20</Time23SLTicks>
@@ -2647,23 +2541,23 @@
       <Time25Trade1Size>1</Time25Trade1Size>
       <Time25Trade2Size>1</Time25Trade2Size>
       <Time1BETriggerTicks>30</Time1BETriggerTicks>
-      <Time1BEBufferTicks>6</Time1BEBufferTicks>
+      <Time1BEBufferTicks>4</Time1BEBufferTicks>
       <Time2BETriggerTicks>0</Time2BETriggerTicks>
       <Time2BEBufferTicks>0</Time2BEBufferTicks>
       <Time3BETriggerTicks>0</Time3BETriggerTicks>
       <Time3BEBufferTicks>0</Time3BEBufferTicks>
       <Time4BETriggerTicks>30</Time4BETriggerTicks>
-      <Time4BEBufferTicks>6</Time4BEBufferTicks>
+      <Time4BEBufferTicks>4</Time4BEBufferTicks>
       <Time5BETriggerTicks>0</Time5BETriggerTicks>
       <Time5BEBufferTicks>0</Time5BEBufferTicks>
       <Time6BETriggerTicks>30</Time6BETriggerTicks>
       <Time6BEBufferTicks>4</Time6BEBufferTicks>
-      <Time7BETriggerTicks>30</Time7BETriggerTicks>
-      <Time7BEBufferTicks>4</Time7BEBufferTicks>
+      <Time7BETriggerTicks>0</Time7BETriggerTicks>
+      <Time7BEBufferTicks>0</Time7BEBufferTicks>
       <Time8BETriggerTicks>0</Time8BETriggerTicks>
       <Time8BEBufferTicks>0</Time8BEBufferTicks>
       <Time9BETriggerTicks>27</Time9BETriggerTicks>
-      <Time9BEBufferTicks>6</Time9BEBufferTicks>
+      <Time9BEBufferTicks>4</Time9BEBufferTicks>
       <Time10BETriggerTicks>0</Time10BETriggerTicks>
       <Time10BEBufferTicks>0</Time10BEBufferTicks>
       <Time11BETriggerTicks>21</Time11BETriggerTicks>
@@ -2672,24 +2566,24 @@
       <Time12BEBufferTicks>0</Time12BEBufferTicks>
       <Time13BETriggerTicks>0</Time13BETriggerTicks>
       <Time13BEBufferTicks>0</Time13BEBufferTicks>
-      <Time14BETriggerTicks>30</Time14BETriggerTicks>
-      <Time14BEBufferTicks>4</Time14BEBufferTicks>
+      <Time14BETriggerTicks>0</Time14BETriggerTicks>
+      <Time14BEBufferTicks>0</Time14BEBufferTicks>
       <Time15BETriggerTicks>30</Time15BETriggerTicks>
       <Time15BEBufferTicks>4</Time15BEBufferTicks>
       <Time16BETriggerTicks>30</Time16BETriggerTicks>
       <Time16BEBufferTicks>4</Time16BEBufferTicks>
       <Time17BETriggerTicks>30</Time17BETriggerTicks>
-      <Time17BEBufferTicks>6</Time17BEBufferTicks>
+      <Time17BEBufferTicks>4</Time17BEBufferTicks>
       <Time18BETriggerTicks>30</Time18BETriggerTicks>
       <Time18BEBufferTicks>4</Time18BEBufferTicks>
       <Time19BETriggerTicks>30</Time19BETriggerTicks>
       <Time19BEBufferTicks>4</Time19BEBufferTicks>
       <Time20BETriggerTicks>30</Time20BETriggerTicks>
-      <Time20BEBufferTicks>6</Time20BEBufferTicks>
+      <Time20BEBufferTicks>4</Time20BEBufferTicks>
       <Time21BETriggerTicks>30</Time21BETriggerTicks>
       <Time21BEBufferTicks>4</Time21BEBufferTicks>
       <Time22BETriggerTicks>30</Time22BETriggerTicks>
-      <Time22BEBufferTicks>6</Time22BEBufferTicks>
+      <Time22BEBufferTicks>4</Time22BEBufferTicks>
       <Time23BETriggerTicks>0</Time23BETriggerTicks>
       <Time23BEBufferTicks>0</Time23BEBufferTicks>
       <Time24BETriggerTicks>0</Time24BETriggerTicks>
@@ -2708,16 +2602,16 @@
       <Time5TrailBufferTicks>0</Time5TrailBufferTicks>
       <Time6TrailTriggerTicks>40</Time6TrailTriggerTicks>
       <Time6TrailBufferTicks>38</Time6TrailBufferTicks>
-      <Time7TrailTriggerTicks>40</Time7TrailTriggerTicks>
-      <Time7TrailBufferTicks>38</Time7TrailBufferTicks>
+      <Time7TrailTriggerTicks>0</Time7TrailTriggerTicks>
+      <Time7TrailBufferTicks>0</Time7TrailBufferTicks>
       <Time8TrailTriggerTicks>0</Time8TrailTriggerTicks>
       <Time8TrailBufferTicks>0</Time8TrailBufferTicks>
       <Time9TrailTriggerTicks>36</Time9TrailTriggerTicks>
       <Time9TrailBufferTicks>34</Time9TrailBufferTicks>
       <Time10TrailTriggerTicks>0</Time10TrailTriggerTicks>
       <Time10TrailBufferTicks>0</Time10TrailBufferTicks>
-      <Time11TrailTriggerTicks>30</Time11TrailTriggerTicks>
-      <Time11TrailBufferTicks>4</Time11TrailBufferTicks>
+      <Time11TrailTriggerTicks>28</Time11TrailTriggerTicks>
+      <Time11TrailBufferTicks>3</Time11TrailBufferTicks>
       <Time12TrailTriggerTicks>0</Time12TrailTriggerTicks>
       <Time12TrailBufferTicks>0</Time12TrailBufferTicks>
       <Time13TrailTriggerTicks>0</Time13TrailTriggerTicks>
@@ -2746,11 +2640,6 @@
       <Time24TrailBufferTicks>0</Time24TrailBufferTicks>
       <Time25TrailTriggerTicks>0</Time25TrailTriggerTicks>
       <Time25TrailBufferTicks>0</Time25TrailBufferTicks>
-      <Fast>200</Fast>
-      <Slow>800</Slow>
-      <UseEmaNotSma>true</UseEmaNotSma>
-      <FollowMAs>false</FollowMAs>
-      <ShowMAs>false</ShowMAs>
     </FBNewUnmanaged>
   </Strategy>
 </StrategyTemplate>
