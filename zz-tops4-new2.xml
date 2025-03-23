@@ -208,7 +208,7 @@
         <Max xsi:type="xsd:int">0</Max>
         <Min xsi:type="xsd:int">0</Min>
         <Name>StatsPosition</Name>
-        <ParameterTypeSerializable>NinjaTrader.NinjaScript.DrawingTools.TextPosition, e97ba6fdc24d4a8b8e13e0e9535bf7ad, Version=8.1.5.0, Culture=neutral, PublicKeyToken=null</ParameterTypeSerializable>
+        <ParameterTypeSerializable>NinjaTrader.NinjaScript.DrawingTools.TextPosition, NinjaTrader.Custom, Version=8.1.5.0, Culture=neutral, PublicKeyToken=null</ParameterTypeSerializable>
         <ValueSerializable>BottomLeft</ValueSerializable>
       </Parameter>
       <Parameter>
@@ -219,7 +219,7 @@
         <Max xsi:type="xsd:int">0</Max>
         <Min xsi:type="xsd:int">0</Min>
         <Name>SettingsPosition</Name>
-        <ParameterTypeSerializable>NinjaTrader.NinjaScript.DrawingTools.TextPosition, e97ba6fdc24d4a8b8e13e0e9535bf7ad, Version=8.1.5.0, Culture=neutral, PublicKeyToken=null</ParameterTypeSerializable>
+        <ParameterTypeSerializable>NinjaTrader.NinjaScript.DrawingTools.TextPosition, NinjaTrader.Custom, Version=8.1.5.0, Culture=neutral, PublicKeyToken=null</ParameterTypeSerializable>
         <ValueSerializable>BottomRight</ValueSerializable>
       </Parameter>
       <Parameter>
@@ -3482,11 +3482,11 @@
       </BarsPeriodSerializable>
       <BarsToLoad>0</BarsToLoad>
       <DisplayInDataBox>true</DisplayInDataBox>
-      <From>2025-02-14T00:00:00</From>
+      <From>2022-10-05T00:00:00</From>
       <Panel>-1</Panel>
       <ScaleJustification>Right</ScaleJustification>
       <ShowTransparentPlotsInDataBox>false</ShowTransparentPlotsInDataBox>
-      <To>2025-03-16T00:00:00</To>
+      <To>2025-03-23T00:00:00</To>
       <Calculate>OnEachTick</Calculate>
       <Displacement>0</Displacement>
       <IsAutoScale>true</IsAutoScale>
@@ -3799,7 +3799,7 @@
       <Time8BEBufferTicks>6</Time8BEBufferTicks>
       <Time9BETriggerTicks>27</Time9BETriggerTicks>
       <Time9BEBufferTicks>6</Time9BEBufferTicks>
-      <Time10BETriggerTicks>30</Time10BETriggerTicks>
+      <Time10BETriggerTicks>21</Time10BETriggerTicks>
       <Time10BEBufferTicks>6</Time10BEBufferTicks>
       <Time11BETriggerTicks>21</Time11BETriggerTicks>
       <Time11BEBufferTicks>4</Time11BEBufferTicks>
@@ -3849,7 +3849,7 @@
       <Time8TrailBufferTicks>6</Time8TrailBufferTicks>
       <Time9TrailTriggerTicks>36</Time9TrailTriggerTicks>
       <Time9TrailBufferTicks>34</Time9TrailBufferTicks>
-      <Time10TrailTriggerTicks>40</Time10TrailTriggerTicks>
+      <Time10TrailTriggerTicks>30</Time10TrailTriggerTicks>
       <Time10TrailBufferTicks>38</Time10TrailBufferTicks>
       <Time11TrailTriggerTicks>30</Time11TrailTriggerTicks>
       <Time11TrailBufferTicks>4</Time11TrailBufferTicks>
