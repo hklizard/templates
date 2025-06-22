@@ -432,11 +432,11 @@
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:boolean">true</Max>
-        <Min xsi:type="xsd:boolean">true</Min>
+        <Max xsi:type="xsd:boolean">false</Max>
+        <Min xsi:type="xsd:boolean">false</Min>
         <Name>TakeTrade21</Name>
         <ParameterTypeSerializable>System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>True</ValueSerializable>
+        <ValueSerializable>False</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
@@ -2358,11 +2358,11 @@
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:boolean">true</Max>
-        <Min xsi:type="xsd:boolean">true</Min>
+        <Max xsi:type="xsd:boolean">false</Max>
+        <Min xsi:type="xsd:boolean">false</Min>
         <Name>TuesdayTime1</Name>
         <ParameterTypeSerializable>System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>True</ValueSerializable>
+        <ValueSerializable>False</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
@@ -2529,11 +2529,11 @@
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:boolean">false</Max>
-        <Min xsi:type="xsd:boolean">false</Min>
+        <Max xsi:type="xsd:boolean">true</Max>
+        <Min xsi:type="xsd:boolean">true</Min>
         <Name>MondayTime5</Name>
         <ParameterTypeSerializable>System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>False</ValueSerializable>
+        <ValueSerializable>True</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
@@ -2673,11 +2673,11 @@
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:boolean">true</Max>
-        <Min xsi:type="xsd:boolean">true</Min>
+        <Max xsi:type="xsd:boolean">false</Max>
+        <Min xsi:type="xsd:boolean">false</Min>
         <Name>TuesdayTime8</Name>
         <ParameterTypeSerializable>System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>True</ValueSerializable>
+        <ValueSerializable>False</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
@@ -2718,11 +2718,11 @@
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:boolean">false</Max>
-        <Min xsi:type="xsd:boolean">false</Min>
+        <Max xsi:type="xsd:boolean">true</Max>
+        <Min xsi:type="xsd:boolean">true</Min>
         <Name>TuesdayTime9</Name>
         <ParameterTypeSerializable>System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>False</ValueSerializable>
+        <ValueSerializable>True</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
@@ -2943,11 +2943,11 @@
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:boolean">true</Max>
-        <Min xsi:type="xsd:boolean">true</Min>
+        <Max xsi:type="xsd:boolean">false</Max>
+        <Min xsi:type="xsd:boolean">false</Min>
         <Name>TuesdayTime14</Name>
         <ParameterTypeSerializable>System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>True</ValueSerializable>
+        <ValueSerializable>False</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
@@ -2979,11 +2979,11 @@
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:boolean">false</Max>
-        <Min xsi:type="xsd:boolean">false</Min>
+        <Max xsi:type="xsd:boolean">true</Max>
+        <Min xsi:type="xsd:boolean">true</Min>
         <Name>MondayTime15</Name>
         <ParameterTypeSerializable>System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>False</ValueSerializable>
+        <ValueSerializable>True</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
@@ -3069,20 +3069,20 @@
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:boolean">false</Max>
-        <Min xsi:type="xsd:boolean">false</Min>
+        <Max xsi:type="xsd:boolean">true</Max>
+        <Min xsi:type="xsd:boolean">true</Min>
         <Name>MondayTime17</Name>
         <ParameterTypeSerializable>System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>False</ValueSerializable>
+        <ValueSerializable>True</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:boolean">true</Max>
-        <Min xsi:type="xsd:boolean">true</Min>
+        <Max xsi:type="xsd:boolean">false</Max>
+        <Min xsi:type="xsd:boolean">false</Min>
         <Name>TuesdayTime17</Name>
         <ParameterTypeSerializable>System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>True</ValueSerializable>
+        <ValueSerializable>False</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
@@ -3159,20 +3159,20 @@
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:boolean">false</Max>
-        <Min xsi:type="xsd:boolean">false</Min>
+        <Max xsi:type="xsd:boolean">true</Max>
+        <Min xsi:type="xsd:boolean">true</Min>
         <Name>MondayTime19</Name>
         <ParameterTypeSerializable>System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>False</ValueSerializable>
+        <ValueSerializable>True</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:boolean">false</Max>
-        <Min xsi:type="xsd:boolean">false</Min>
+        <Max xsi:type="xsd:boolean">true</Max>
+        <Min xsi:type="xsd:boolean">true</Min>
         <Name>TuesdayTime19</Name>
         <ParameterTypeSerializable>System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>False</ValueSerializable>
+        <ValueSerializable>True</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
@@ -3204,11 +3204,11 @@
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:boolean">false</Max>
-        <Min xsi:type="xsd:boolean">false</Min>
+        <Max xsi:type="xsd:boolean">true</Max>
+        <Min xsi:type="xsd:boolean">true</Min>
         <Name>MondayTime20</Name>
         <ParameterTypeSerializable>System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>False</ValueSerializable>
+        <ValueSerializable>True</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
@@ -3249,20 +3249,20 @@
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:boolean">true</Max>
-        <Min xsi:type="xsd:boolean">true</Min>
+        <Max xsi:type="xsd:boolean">false</Max>
+        <Min xsi:type="xsd:boolean">false</Min>
         <Name>MondayTime21</Name>
         <ParameterTypeSerializable>System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>True</ValueSerializable>
+        <ValueSerializable>False</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:boolean">true</Max>
-        <Min xsi:type="xsd:boolean">true</Min>
+        <Max xsi:type="xsd:boolean">false</Max>
+        <Min xsi:type="xsd:boolean">false</Min>
         <Name>TuesdayTime21</Name>
         <ParameterTypeSerializable>System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>True</ValueSerializable>
+        <ValueSerializable>False</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
@@ -3294,20 +3294,20 @@
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:boolean">false</Max>
-        <Min xsi:type="xsd:boolean">false</Min>
+        <Max xsi:type="xsd:boolean">true</Max>
+        <Min xsi:type="xsd:boolean">true</Min>
         <Name>MondayTime22</Name>
         <ParameterTypeSerializable>System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>False</ValueSerializable>
+        <ValueSerializable>True</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:boolean">true</Max>
-        <Min xsi:type="xsd:boolean">true</Min>
+        <Max xsi:type="xsd:boolean">false</Max>
+        <Min xsi:type="xsd:boolean">false</Min>
         <Name>TuesdayTime22</Name>
         <ParameterTypeSerializable>System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>True</ValueSerializable>
+        <ValueSerializable>False</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
@@ -3339,20 +3339,20 @@
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:boolean">false</Max>
-        <Min xsi:type="xsd:boolean">false</Min>
+        <Max xsi:type="xsd:boolean">true</Max>
+        <Min xsi:type="xsd:boolean">true</Min>
         <Name>MondayTime23</Name>
         <ParameterTypeSerializable>System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>False</ValueSerializable>
+        <ValueSerializable>True</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:boolean">false</Max>
-        <Min xsi:type="xsd:boolean">false</Min>
+        <Max xsi:type="xsd:boolean">true</Max>
+        <Min xsi:type="xsd:boolean">true</Min>
         <Name>TuesdayTime23</Name>
         <ParameterTypeSerializable>System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>False</ValueSerializable>
+        <ValueSerializable>True</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
@@ -3384,11 +3384,11 @@
       <Parameter>
         <EnumValuesSerializable />
         <Increment>1</Increment>
-        <Max xsi:type="xsd:boolean">false</Max>
-        <Min xsi:type="xsd:boolean">false</Min>
+        <Max xsi:type="xsd:boolean">true</Max>
+        <Min xsi:type="xsd:boolean">true</Min>
         <Name>MondayTime24</Name>
         <ParameterTypeSerializable>System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</ParameterTypeSerializable>
-        <ValueSerializable>False</ValueSerializable>
+        <ValueSerializable>True</ValueSerializable>
       </Parameter>
       <Parameter>
         <EnumValuesSerializable />
@@ -3482,11 +3482,11 @@
       </BarsPeriodSerializable>
       <BarsToLoad>0</BarsToLoad>
       <DisplayInDataBox>true</DisplayInDataBox>
-      <From>2023-07-08T00:00:00</From>
+      <From>2025-04-13T00:00:00</From>
       <Panel>-1</Panel>
       <ScaleJustification>Right</ScaleJustification>
       <ShowTransparentPlotsInDataBox>false</ShowTransparentPlotsInDataBox>
-      <To>2025-06-07T00:00:00</To>
+      <To>2025-06-08T00:00:00</To>
       <Calculate>OnEachTick</Calculate>
       <Displacement>0</Displacement>
       <IsAutoScale>true</IsAutoScale>
@@ -3494,7 +3494,7 @@
       <IsOverlay>true</IsOverlay>
       <Lines />
       <MaximumBarsLookBack>TwoHundredFiftySix</MaximumBarsLookBack>
-      <Name>zz-tops4-new6</Name>
+      <Name>zz-tops4-new9</Name>
       <Plots>
         <Plot>
           <IsOpacityVisible>false</IsOpacityVisible>
@@ -3716,14 +3716,14 @@
       <Time9TPTicks>184</Time9TPTicks>
       <Time9SLTicks>36</Time9SLTicks>
       <Time9Trade1Size>1</Time9Trade1Size>
-      <Time9Trade2Size>1</Time9Trade2Size>
+      <Time9Trade2Size>0</Time9Trade2Size>
       <Time10TPTicks>200</Time10TPTicks>
       <Time10SLTicks>28</Time10SLTicks>
       <Time10Trade1Size>1</Time10Trade1Size>
       <Time10Trade2Size>1</Time10Trade2Size>
       <Time11TPTicks>200</Time11TPTicks>
       <Time11SLTicks>28</Time11SLTicks>
-      <Time11Trade1Size>2</Time11Trade1Size>
+      <Time11Trade1Size>1</Time11Trade1Size>
       <Time11Trade2Size>0</Time11Trade2Size>
       <Time12TPTicks>200</Time12TPTicks>
       <Time12SLTicks>40</Time12SLTicks>
@@ -3732,31 +3732,31 @@
       <Time13TPTicks>200</Time13TPTicks>
       <Time13SLTicks>40</Time13SLTicks>
       <Time13Trade1Size>1</Time13Trade1Size>
-      <Time13Trade2Size>1</Time13Trade2Size>
+      <Time13Trade2Size>0</Time13Trade2Size>
       <Time14TPTicks>200</Time14TPTicks>
       <Time14SLTicks>40</Time14SLTicks>
       <Time14Trade1Size>1</Time14Trade1Size>
-      <Time14Trade2Size>1</Time14Trade2Size>
+      <Time14Trade2Size>0</Time14Trade2Size>
       <Time15TPTicks>120</Time15TPTicks>
       <Time15SLTicks>40</Time15SLTicks>
       <Time15Trade1Size>1</Time15Trade1Size>
-      <Time15Trade2Size>0</Time15Trade2Size>
+      <Time15Trade2Size>1</Time15Trade2Size>
       <Time16TPTicks>57</Time16TPTicks>
       <Time16SLTicks>40</Time16SLTicks>
-      <Time16Trade1Size>2</Time16Trade1Size>
-      <Time16Trade2Size>0</Time16Trade2Size>
+      <Time16Trade1Size>1</Time16Trade1Size>
+      <Time16Trade2Size>1</Time16Trade2Size>
       <Time17TPTicks>128</Time17TPTicks>
       <Time17SLTicks>40</Time17SLTicks>
       <Time17Trade1Size>1</Time17Trade1Size>
-      <Time17Trade2Size>1</Time17Trade2Size>
+      <Time17Trade2Size>0</Time17Trade2Size>
       <Time18TPTicks>200</Time18TPTicks>
       <Time18SLTicks>40</Time18SLTicks>
       <Time18Trade1Size>1</Time18Trade1Size>
-      <Time18Trade2Size>1</Time18Trade2Size>
+      <Time18Trade2Size>0</Time18Trade2Size>
       <Time19TPTicks>142</Time19TPTicks>
       <Time19SLTicks>40</Time19SLTicks>
       <Time19Trade1Size>1</Time19Trade1Size>
-      <Time19Trade2Size>2</Time19Trade2Size>
+      <Time19Trade2Size>1</Time19Trade2Size>
       <Time20TPTicks>194</Time20TPTicks>
       <Time20SLTicks>40</Time20SLTicks>
       <Time20Trade1Size>1</Time20Trade1Size>
@@ -3764,14 +3764,14 @@
       <Time21TPTicks>120</Time21TPTicks>
       <Time21SLTicks>40</Time21SLTicks>
       <Time21Trade1Size>1</Time21Trade1Size>
-      <Time21Trade2Size>2</Time21Trade2Size>
+      <Time21Trade2Size>1</Time21Trade2Size>
       <Time22TPTicks>200</Time22TPTicks>
       <Time22SLTicks>40</Time22SLTicks>
-      <Time22Trade1Size>2</Time22Trade1Size>
-      <Time22Trade2Size>0</Time22Trade2Size>
+      <Time22Trade1Size>1</Time22Trade1Size>
+      <Time22Trade2Size>1</Time22Trade2Size>
       <Time23TPTicks>200</Time23TPTicks>
       <Time23SLTicks>40</Time23SLTicks>
-      <Time23Trade1Size>2</Time23Trade1Size>
+      <Time23Trade1Size>1</Time23Trade1Size>
       <Time23Trade2Size>0</Time23Trade2Size>
       <Time24TPTicks>200</Time24TPTicks>
       <Time24SLTicks>40</Time24SLTicks>
@@ -3886,11 +3886,11 @@
       <UseEmaNotSma>true</UseEmaNotSma>
       <FollowMAs>false</FollowMAs>
       <ShowMAs>false</ShowMAs>
-      <SundayTime1>false</SundayTime1>
-      <MondayTime1>false</MondayTime1>
+      <SundayTime1>true</SundayTime1>
+      <MondayTime1>true</MondayTime1>
       <TuesdayTime1>true</TuesdayTime1>
       <WednesdayTime1>true</WednesdayTime1>
-      <ThursdayTime1>false</ThursdayTime1>
+      <ThursdayTime1>true</ThursdayTime1>
       <SundayTime2>false</SundayTime2>
       <MondayTime2>true</MondayTime2>
       <TuesdayTime2>false</TuesdayTime2>
@@ -3899,113 +3899,113 @@
       <SundayTime3>true</SundayTime3>
       <MondayTime3>true</MondayTime3>
       <TuesdayTime3>false</TuesdayTime3>
-      <WednesdayTime3>true</WednesdayTime3>
-      <ThursdayTime3>false</ThursdayTime3>
+      <WednesdayTime3>false</WednesdayTime3>
+      <ThursdayTime3>true</ThursdayTime3>
       <SundayTime4>false</SundayTime4>
       <MondayTime4>false</MondayTime4>
-      <TuesdayTime4>true</TuesdayTime4>
+      <TuesdayTime4>false</TuesdayTime4>
       <WednesdayTime4>true</WednesdayTime4>
-      <ThursdayTime4>true</ThursdayTime4>
+      <ThursdayTime4>false</ThursdayTime4>
       <SundayTime5>true</SundayTime5>
-      <MondayTime5>false</MondayTime5>
-      <TuesdayTime5>false</TuesdayTime5>
+      <MondayTime5>true</MondayTime5>
+      <TuesdayTime5>true</TuesdayTime5>
       <WednesdayTime5>true</WednesdayTime5>
       <ThursdayTime5>true</ThursdayTime5>
       <SundayTime6>true</SundayTime6>
       <MondayTime6>false</MondayTime6>
       <TuesdayTime6>false</TuesdayTime6>
       <WednesdayTime6>true</WednesdayTime6>
-      <ThursdayTime6>false</ThursdayTime6>
-      <SundayTime7>false</SundayTime7>
+      <ThursdayTime6>true</ThursdayTime6>
+      <SundayTime7>true</SundayTime7>
       <MondayTime7>false</MondayTime7>
       <TuesdayTime7>false</TuesdayTime7>
-      <WednesdayTime7>true</WednesdayTime7>
+      <WednesdayTime7>false</WednesdayTime7>
       <ThursdayTime7>true</ThursdayTime7>
-      <SundayTime8>true</SundayTime8>
+      <SundayTime8>false</SundayTime8>
       <MondayTime8>false</MondayTime8>
-      <TuesdayTime8>true</TuesdayTime8>
-      <WednesdayTime8>true</WednesdayTime8>
-      <ThursdayTime8>false</ThursdayTime8>
-      <SundayTime9>true</SundayTime9>
+      <TuesdayTime8>false</TuesdayTime8>
+      <WednesdayTime8>false</WednesdayTime8>
+      <ThursdayTime8>true</ThursdayTime8>
+      <SundayTime9>false</SundayTime9>
       <MondayTime9>true</MondayTime9>
       <TuesdayTime9>false</TuesdayTime9>
-      <WednesdayTime9>false</WednesdayTime9>
+      <WednesdayTime9>true</WednesdayTime9>
       <ThursdayTime9>false</ThursdayTime9>
       <SundayTime10>false</SundayTime10>
       <MondayTime10>false</MondayTime10>
       <TuesdayTime10>true</TuesdayTime10>
-      <WednesdayTime10>true</WednesdayTime10>
-      <ThursdayTime10>false</ThursdayTime10>
+      <WednesdayTime10>false</WednesdayTime10>
+      <ThursdayTime10>true</ThursdayTime10>
       <SundayTime11>false</SundayTime11>
       <MondayTime11>true</MondayTime11>
-      <TuesdayTime11>true</TuesdayTime11>
+      <TuesdayTime11>false</TuesdayTime11>
       <WednesdayTime11>false</WednesdayTime11>
-      <ThursdayTime11>true</ThursdayTime11>
-      <SundayTime12>true</SundayTime12>
+      <ThursdayTime11>false</ThursdayTime11>
+      <SundayTime12>false</SundayTime12>
       <MondayTime12>true</MondayTime12>
       <TuesdayTime12>false</TuesdayTime12>
       <WednesdayTime12>true</WednesdayTime12>
-      <ThursdayTime12>false</ThursdayTime12>
-      <SundayTime13>true</SundayTime13>
-      <MondayTime13>true</MondayTime13>
+      <ThursdayTime12>true</ThursdayTime12>
+      <SundayTime13>false</SundayTime13>
+      <MondayTime13>false</MondayTime13>
       <TuesdayTime13>false</TuesdayTime13>
-      <WednesdayTime13>true</WednesdayTime13>
-      <ThursdayTime13>true</ThursdayTime13>
-      <SundayTime14>true</SundayTime14>
+      <WednesdayTime13>false</WednesdayTime13>
+      <ThursdayTime13>false</ThursdayTime13>
+      <SundayTime14>false</SundayTime14>
       <MondayTime14>false</MondayTime14>
-      <TuesdayTime14>true</TuesdayTime14>
+      <TuesdayTime14>false</TuesdayTime14>
       <WednesdayTime14>false</WednesdayTime14>
       <ThursdayTime14>false</ThursdayTime14>
-      <SundayTime15>true</SundayTime15>
+      <SundayTime15>false</SundayTime15>
       <MondayTime15>false</MondayTime15>
-      <TuesdayTime15>true</TuesdayTime15>
+      <TuesdayTime15>false</TuesdayTime15>
       <WednesdayTime15>false</WednesdayTime15>
-      <ThursdayTime15>true</ThursdayTime15>
+      <ThursdayTime15>false</ThursdayTime15>
       <SundayTime16>false</SundayTime16>
       <MondayTime16>false</MondayTime16>
-      <TuesdayTime16>true</TuesdayTime16>
-      <WednesdayTime16>false</WednesdayTime16>
-      <ThursdayTime16>true</ThursdayTime16>
+      <TuesdayTime16>false</TuesdayTime16>
+      <WednesdayTime16>true</WednesdayTime16>
+      <ThursdayTime16>false</ThursdayTime16>
       <SundayTime17>true</SundayTime17>
       <MondayTime17>false</MondayTime17>
-      <TuesdayTime17>true</TuesdayTime17>
+      <TuesdayTime17>false</TuesdayTime17>
       <WednesdayTime17>false</WednesdayTime17>
-      <ThursdayTime17>true</ThursdayTime17>
-      <SundayTime18>true</SundayTime18>
+      <ThursdayTime17>false</ThursdayTime17>
+      <SundayTime18>false</SundayTime18>
       <MondayTime18>false</MondayTime18>
       <TuesdayTime18>true</TuesdayTime18>
       <WednesdayTime18>false</WednesdayTime18>
-      <ThursdayTime18>true</ThursdayTime18>
+      <ThursdayTime18>false</ThursdayTime18>
       <SundayTime19>false</SundayTime19>
-      <MondayTime19>false</MondayTime19>
-      <TuesdayTime19>false</TuesdayTime19>
+      <MondayTime19>true</MondayTime19>
+      <TuesdayTime19>true</TuesdayTime19>
       <WednesdayTime19>false</WednesdayTime19>
       <ThursdayTime19>false</ThursdayTime19>
       <SundayTime20>false</SundayTime20>
       <MondayTime20>false</MondayTime20>
-      <TuesdayTime20>true</TuesdayTime20>
+      <TuesdayTime20>false</TuesdayTime20>
       <WednesdayTime20>false</WednesdayTime20>
-      <ThursdayTime20>true</ThursdayTime20>
+      <ThursdayTime20>false</ThursdayTime20>
       <SundayTime21>false</SundayTime21>
-      <MondayTime21>true</MondayTime21>
+      <MondayTime21>false</MondayTime21>
       <TuesdayTime21>true</TuesdayTime21>
       <WednesdayTime21>false</WednesdayTime21>
-      <ThursdayTime21>false</ThursdayTime21>
+      <ThursdayTime21>true</ThursdayTime21>
       <SundayTime22>true</SundayTime22>
-      <MondayTime22>false</MondayTime22>
-      <TuesdayTime22>true</TuesdayTime22>
+      <MondayTime22>true</MondayTime22>
+      <TuesdayTime22>false</TuesdayTime22>
       <WednesdayTime22>false</WednesdayTime22>
       <ThursdayTime22>false</ThursdayTime22>
-      <SundayTime23>true</SundayTime23>
+      <SundayTime23>false</SundayTime23>
       <MondayTime23>false</MondayTime23>
-      <TuesdayTime23>false</TuesdayTime23>
-      <WednesdayTime23>false</WednesdayTime23>
+      <TuesdayTime23>true</TuesdayTime23>
+      <WednesdayTime23>true</WednesdayTime23>
       <ThursdayTime23>false</ThursdayTime23>
-      <SundayTime24>true</SundayTime24>
+      <SundayTime24>false</SundayTime24>
       <MondayTime24>false</MondayTime24>
-      <TuesdayTime24>true</TuesdayTime24>
-      <WednesdayTime24>true</WednesdayTime24>
-      <ThursdayTime24>false</ThursdayTime24>
+      <TuesdayTime24>false</TuesdayTime24>
+      <WednesdayTime24>false</WednesdayTime24>
+      <ThursdayTime24>true</ThursdayTime24>
       <SundayTime25>true</SundayTime25>
       <MondayTime25>true</MondayTime25>
       <TuesdayTime25>true</TuesdayTime25>
